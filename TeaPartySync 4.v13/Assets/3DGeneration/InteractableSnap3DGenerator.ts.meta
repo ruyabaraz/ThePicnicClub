@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/f82e3c21-85d3-4e4b-9bed-e3b4c5b9afe2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d9302c8f-4b3e-4128-8140-5d8dc8ce055b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d9302c8f-4b3e-4128-8140-5d8dc8ce055b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 45f1e76a-4cf6-4ba3-bb78-c851a946fb3b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/45f1e76a-4cf6-4ba3-bb78-c851a946fb3b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 89b63894-54bb-4e6c-b6c3-641c3a7f3d7d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    asrQueryController: false
+    snap3DFactory: false
+    targetPosition: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - snap3DFactory: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      asrQueryController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      targetPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType snap3DFactory
+    - // @input AssignableType_1 asrQueryController
+    - // @input SceneObject targetPosition

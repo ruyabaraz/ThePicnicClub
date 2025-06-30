@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    7b152d92-0528-4817-9ce2-8563f615dbe8: c716a3e2-3edd-4ae1-98c2-295f5abeed44/44c831e94421611d19ff046dcbb54862/Data/Bird Chirping Sound Effect.mp3
+  Assets:
+    - !<FileAudioTrack/7b152d92-0528-4817-9ce2-8563f615dbe8>
+      PackagePath: ""
+  SourceHash: 44c831e94421611d19ff046dcbb54862
+  FileHash: bed2d1a9c8901f7b73b2e647ed9fefa7
+  NativePackageItems:
+    []

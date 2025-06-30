@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    518e9abe-dc90-448f-aca8-071aeacc80b8: c25bf159-7843-0fc3-2b28-9b0324d4c22b/d4fe746ca0d938c0202cd9901079ed86/Data/2DBitmojiAvatar.png
+  Assets:
+    - !<FileTexture/518e9abe-dc90-448f-aca8-071aeacc80b8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 150
+        Height: 150
+  SourceHash: d4fe746ca0d938c0202cd9901079ed86
+  FileHash: 4eee68154dd423b477bc5e4a4be727b5
+  NativePackageItems:
+    []

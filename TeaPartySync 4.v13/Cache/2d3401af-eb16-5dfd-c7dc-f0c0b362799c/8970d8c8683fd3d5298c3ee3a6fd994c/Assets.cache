@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b8737185-495e-49e1-b6fa-59b846b75ee4: 2d3401af-eb16-5dfd-c7dc-f0c0b362799c/8970d8c8683fd3d5298c3ee3a6fd994c/Data/ducky_base.png
+  Assets:
+    - !<FileTexture/b8737185-495e-49e1-b6fa-59b846b75ee4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 8970d8c8683fd3d5298c3ee3a6fd994c
+  FileHash: cc0d6cd300aa803a9ec888a79258ef4b
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f77734bc-d036-4822-bc73-13a9ff89c7a4: 1a3cad21-7156-4a8b-b55d-a60b5fc9e2d5/c0bbd0424c61666506ef89b4c63c8258/Data/macaron_chocolate1.001.mesh
+  Assets:
+    - !<FileMesh/f77734bc-d036-4822-bc73-13a9ff89c7a4>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1824
+        Vertices: 1833
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.060674, y: 0.060889, z: 0.040877}
+  SourceHash: c0bbd0424c61666506ef89b4c63c8258
+  FileHash: 7c97ac305bda02165f109c7f4b6c872b
+  NativePackageItems:
+    []

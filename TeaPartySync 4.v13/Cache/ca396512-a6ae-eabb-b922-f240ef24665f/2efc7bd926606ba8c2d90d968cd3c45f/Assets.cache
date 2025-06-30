@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    65cd6c0e-2926-461a-afc7-43e93ac19e01: ca396512-a6ae-eabb-b922-f240ef24665f/2efc7bd926606ba8c2d90d968cd3c45f/Data/Ducky.mesh
+  Assets:
+    - !<FileMesh/65cd6c0e-2926-461a-afc7-43e93ac19e01>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 5352
+        Vertices: 2923
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 86.033813, y: 80.091492, z: 69.940231}
+  SourceHash: 2efc7bd926606ba8c2d90d968cd3c45f
+  FileHash: 0f03239e92f23c973c433dbead812489
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    134acf93-2109-49fb-b361-49f04e88e1ad: 7dea3755-ed69-92ee-f197-defd380d872a/6197fd56a7225af58d01a66fd9c58f24/Data/ducky_materialParams.png
+  Assets:
+    - !<FileTexture/134acf93-2109-49fb-b361-49f04e88e1ad>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 6197fd56a7225af58d01a66fd9c58f24
+  FileHash: 62097413deace87507963b211073087b
+  NativePackageItems:
+    []

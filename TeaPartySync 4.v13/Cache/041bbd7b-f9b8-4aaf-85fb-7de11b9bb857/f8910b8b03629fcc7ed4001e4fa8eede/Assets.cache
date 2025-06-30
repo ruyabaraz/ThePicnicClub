@@ -1,0 +1,48 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: f8910b8b03629fcc7ed4001e4fa8eede
+  FileHash: 2e57353520a491fe175c733ae9e72d2b
+  NativePackageItems:
+    - !<own> b990615b-72fe-9779-8e48-0c821db7ba58
+    - !<own> 32dd7851-9448-d1e9-c764-4411bf249907
+- !<AssetImportMetadata/32dd7851-9448-d1e9-c764-4411bf249907>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 16272878-d4b4-46ee-847f-2a16637b10ea
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 16272878-d4b4-46ee-847f-2a16637b10ea
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/b990615b-72fe-9779-8e48-0c821db7ba58>
+  ImportedAssetIds:
+    FileMesh: !<reference> 134c2f3f-e37d-45ac-8462-dea7228853ef
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> 134c2f3f-e37d-45ac-8462-dea7228853ef
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

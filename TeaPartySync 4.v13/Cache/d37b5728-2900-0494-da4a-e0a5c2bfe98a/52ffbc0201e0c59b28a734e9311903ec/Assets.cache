@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e13e1321-c07e-434c-8979-dec721ad275d: d37b5728-2900-0494-da4a-e0a5c2bfe98a/52ffbc0201e0c59b28a734e9311903ec/Data/handMeshNewMaskColored.png
+  Assets:
+    - !<FileTexture/e13e1321-c07e-434c-8979-dec721ad275d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 52ffbc0201e0c59b28a734e9311903ec
+  FileHash: 2375dd0e33a6dcc1e66a2901aa4342cf
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    cc6ac961-b576-4e96-8c25-974ddfd2b1ea: fdc41efb-83d8-45b5-a8c2-b3f06d158b00/be87f068547fbf3cc1cffc4a9f71c14d/Data/Flies Buzzing and Circling - Free Sound Effects.mp3
+  Assets:
+    - !<FileAudioTrack/cc6ac961-b576-4e96-8c25-974ddfd2b1ea>
+      PackagePath: ""
+  SourceHash: be87f068547fbf3cc1cffc4a9f71c14d
+  FileHash: 6b4ea064a937dd7764cf1114793aedcf
+  NativePackageItems:
+    []

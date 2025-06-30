@@ -1,0 +1,4191 @@
+- !<AssetCache>
+  AssetFiles:
+    b2887266-05e5-4f2e-8600-b3d1f887fe3d: b52ff43c-5000-43cc-948e-bf561ba00b5a/f1680ab394222f8ffb87ac48e0d98f40/Data/Meshes/Circle.mesh
+    bca6366a-b9c9-4884-a03d-5a4b6c70276e: b52ff43c-5000-43cc-948e-bf561ba00b5a/f1680ab394222f8ffb87ac48e0d98f40/Data/Meshes/Circle1.mesh
+    c515904e-5d70-4435-b481-009ba129ee79: b52ff43c-5000-43cc-948e-bf561ba00b5a/f1680ab394222f8ffb87ac48e0d98f40/Data/Meshes/Circle2.mesh
+    0959b9e2-f1a8-4530-8028-e12eefe832ca: b52ff43c-5000-43cc-948e-bf561ba00b5a/f1680ab394222f8ffb87ac48e0d98f40/Data/Meshes/Circle3.mesh
+    c1614a54-0f72-4703-ac50-0683dea2adbc: b52ff43c-5000-43cc-948e-bf561ba00b5a/f1680ab394222f8ffb87ac48e0d98f40/Data/Meshes/Plane.008.mesh
+    cc756f1a-8b28-4894-80d5-5c05a6e1fc7c: b52ff43c-5000-43cc-948e-bf561ba00b5a/f1680ab394222f8ffb87ac48e0d98f40/Data/.hidden/Material.001.ss_graph
+  Assets:
+    - !<ObjectPrefab/0d056c1c-0d0d-41c1-ae51-840c536de816>
+      PackagePath: ""
+      objects:
+        - !<own> 26c6d481-15c8-434d-9edd-e3e1b6fb0d7f
+      LazyLoading: false
+      RetainAssets: true
+    - !<FileMesh/b2887266-05e5-4f2e-8600-b3d1f887fe3d>
+      PackagePath: Meshes/Circle
+      Info: !<MeshInfo>
+        Triangles: 402
+        Vertices: 406
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.277706, y: 0.218804, z: 0.277706}
+    - !<FileMesh/bca6366a-b9c9-4884-a03d-5a4b6c70276e>
+      PackagePath: Meshes/Circle1
+      Info: !<MeshInfo>
+        Triangles: 944
+        Vertices: 768
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.139636, y: 0.088932, z: 0.143045}
+    - !<FileMesh/c515904e-5d70-4435-b481-009ba129ee79>
+      PackagePath: Meshes/Circle2
+      Info: !<MeshInfo>
+        Triangles: 35094
+        Vertices: 39757
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.343325, y: 0.271946, z: 0.341968}
+    - !<FileMesh/0959b9e2-f1a8-4530-8028-e12eefe832ca>
+      PackagePath: Meshes/Circle3
+      Info: !<MeshInfo>
+        Triangles: 1304
+        Vertices: 1280
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.329472, y: 0.025152, z: 0.312821}
+    - !<FileMesh/c1614a54-0f72-4703-ac50-0683dea2adbc>
+      PackagePath: Meshes/Plane.008
+      Info: !<MeshInfo>
+        Triangles: 1920
+        Vertices: 1790
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.307214, y: 0.032288, z: 0.300343}
+    - !<Material/d3fe211a-9af5-4834-840b-f041f189a441>
+      PackagePath: Materials/Material.004
+      PassesInfo:
+        - !<own> 358f5efa-cb39-409f-a7b8-c451cdd1ba56
+    - !<ShaderGraphPass/cc756f1a-8b28-4894-80d5-5c05a6e1fc7c>
+      PackagePath: .hidden/Material.001
+      DefaultDefines:
+        - NODE_10_DROPLIST_ITEM 0
+        - NODE_11_DROPLIST_ITEM 0
+        - NODE_30_DROPLIST_ITEM 0
+        - NODE_32_DROPLIST_ITEM 0
+        - NODE_37_DROPLIST_ITEM 0
+        - NODE_44_DROPLIST_ITEM 0
+        - NODE_47_DROPLIST_ITEM 0
+        - NODE_60_DROPLIST_ITEM 0
+        - NODE_7_DROPLIST_ITEM 0
+        - NODE_8_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_AO_N405:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Albedo_N405:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_DebugSheenEnvLightMult_N003:
+          typeIdx: 1
+          value: 1.000000
+        Port_DebugSheenPunctualLightMult_N003:
+          typeIdx: 1
+          value: 1.000000
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N405:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N043:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N062:
+          typeIdx: 1
+          value: 0.000000
+        Port_Metallic_N405:
+          typeIdx: 1
+          value: 0.000000
+        Port_Opacity_N405:
+          typeIdx: 1
+          value: 1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_SpecularAO_N036:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_SpecularAO_N405:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Enable Vertex Color
+            mType: Define
+            mName: ENABLE_VERTEX_COLOR_BASE
+            mWidget: checkbox
+            mHint: |-
+              Define: ENABLE_VERTEX_COLOR_BASE
+              
+              When enabled, vertex color acts as an linear multiplier to Albedo.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Enable Lighting
+            mType: Define
+            mName: ENABLE_GLTF_LIGHTING
+            mWidget: checkbox
+            mHint: |-
+              Define: ENABLE_GLTF_LIGHTING
+              
+              Enable Lighting.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic-Roughness
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColorFactor
+            mWidget: color
+            mHint: |-
+              Property: baseColorFactor
+              
+              Specifies the base color (albedo) of the material if the 'Base Texture' is disabled.  Multiplied with the 'Base Texture' otherwise. 
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: ENABLE_BASE_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_BASE_TEX
+              
+              Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: baseColorTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: baseColorTexture
+              
+              Base Color Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_7_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_7_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_BASE_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Emissive Factor
+            mType: Property
+            mName: emissiveFactor
+            mWidget: color
+            mHint: |-
+              Property: emissiveFactor
+              
+              The factors for the emissive color of the material.  1 means high intensity, 0 means no light being emitted by the material.  Multiplies the Emissive Texture if enabled.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Emissive Texture
+            mType: Define
+            mName: ENABLE_EMISSIVE
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_EMISSIVE
+              
+              Enables the emissive texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: emissiveTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: emissiveTexture
+              
+              Emissive Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_10_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_10_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_EMISSIVE
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: ENABLE_NORMALMAP
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_NORMALMAP
+              
+              Enables the normal map texture and normal mapping. When this is disabled, the per pixel normal is solely determined by the interpolated vertex normals.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: normalTextureScale
+            mWidget: slider
+            mHint: |-
+              Property: normalTextureScale
+              
+              This parameter applied to each normal vector of the 'Normal Map'.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: normalTexture
+              
+              Enables metallic roughness normal map.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_8_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_8_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_NORMALMAP
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallicFactor
+            mWidget: slider
+            mHint: |-
+              Property: metallicFactor
+              
+              1 means metal, 0 means non-metal (dielectric). Multiplies the metallic channel of the Material Params texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughnessFactor
+            mWidget: slider
+            mHint: |-
+              Property: roughnessFactor
+              
+              1 means completely rough (diffuse), 0 means perfectly smooth and shiny.  Multiplies the roughness channel of the Material Params texture if enabled.  If your roughness is 1 and your metallic is 0, it's more efficient to disable Specular alltogether.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Metallic-Roughness Texture
+            mType: Define
+            mName: ENABLE_METALLIC_ROUGHNESS_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_METALLIC_ROUGHNESS_TEX
+              
+              If enabled, it multiplies each channel with the Metallic, Roughness and Occlusion factor.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Occlusion Strength
+            mType: Property
+            mName: occlusionTextureStrength
+            mWidget: slider
+            mHint: |-
+              Property: occlusionTextureStrength
+              
+              1 means full indirect lighting, 0 means no indirect lighting. Multiplies the occlusion channel of the Material Params texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: metallicRoughnessTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: metallicRoughnessTexture
+              
+              Material params texture should have: R - metalness,  G - roughness,  B - ambient occlusion.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_11_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_11_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_METALLIC_ROUGHNESS_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transmission
+            mType: Define
+            mName: ENABLE_TRANSMISSION
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_TRANSMISSION
+              
+              Enables transmission for simulating optical transparency on thin materials
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Screen Texture
+            mType: Property
+            mName: screenTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: screenTexture
+              
+              Texture for sampling the background.
+              
+              WARNING:
+              a Screen Texture *must* be assigned here for Transmission to work!
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Factor
+            mType: Property
+            mName: transmissionFactor
+            mWidget: slider
+            mHint: |-
+              Property: transmissionFactor
+              
+              1 means fully transmitted through, 0 means none.  Multiplies the Transmission Texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Transmission Texture
+            mType: Define
+            mName: ENABLE_TRANSMISSION_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_TRANSMISSION_TEX
+              
+              Enables transmission texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: transmissionTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: transmissionTexture
+              
+              Transmission value from R channel.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N30 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N30 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_TRANSMISSION_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_TRANSMISSION
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Sheen
+            mType: Define
+            mName: ENABLE_SHEEN
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN
+              
+              Enable Sheen on top of glTF to represent cloth and fabric materials.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color
+            mType: Property
+            mName: sheenColorFactor
+            mWidget: color
+            mHint: |-
+              Property: sheenColorFactor
+              
+              The factors for the Sheen Color, multiplies the Sheen Color Texture if enabled.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Texture
+            mType: Define
+            mName: ENABLE_SHEEN_COLOR_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN_COLOR_TEX
+              
+              Enable Sheen Color Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: sheenColorTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: sheenColorTexture
+              
+              Sheen Color Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N32 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N32 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN_COLOR_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Roughness Factor
+            mType: Property
+            mName: sheenRoughnessFactor
+            mWidget: slider
+            mHint: |-
+              Property: sheenRoughnessFactor
+              
+              0 means sharp specular, 1 means smooth specular.  Multiplies the Sheen Roughness texture if enabled.  The sheen roughness is independent from the material parameter roughness. 
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness Texture
+            mType: Define
+            mName: ENABLE_SHEEN_ROUGHNESS_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN_ROUGHNESS_TEX
+              
+              Enable Sheen Roughness Texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: sheenRoughnessTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: sheenRoughnessTexture
+              
+              Sheen Roughness Texture value from alpha channel.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N37 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N37 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN_ROUGHNESS_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Clear Coat
+            mType: Define
+            mName: ENABLE_CLEARCOAT
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT
+              
+              Enables a clear coating that layers on top of the base material.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Factor
+            mType: Property
+            mName: clearcoatFactor
+            mWidget: slider
+            mHint: |-
+              Property: clearcoatFactor
+              
+              1 means fully coated, 0 means no clear coat.  Multiplies the Clear Coat Texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Clear Coat Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_TEX
+              
+              Enables clear coat intensity texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: clearcoatTexture
+            mWidget: texture_group
+            mHint: |-
+              Property: clearcoatTexture
+              
+              R channel controls the clear coat intensity.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N44 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N44 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Roughness Factor
+            mType: Property
+            mName: clearcoatRoughnessFactor
+            mWidget: slider
+            mHint: |-
+              Property: clearcoatRoughnessFactor
+              
+              1 means completely rough (diffuse), 0 means perfectly smooth and shiny.  Multiplies the Roughness texture if enabled.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Roughness Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_ROUGHNESS_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_ROUGHNESS_TEX
+              
+              Enables clear coat roughness texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: clearcoatRoughnessTexture
+            mWidget: texture_group
+            mHint: "Property: clearcoatRoughnessTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N60 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N60 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_ROUGHNESS_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal
+            mType: Define
+            mName: ENABLE_CLEARCOAT_NORMAL_TEX
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_NORMAL_TEX
+              
+              Enables the clear coat normal map texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: clearcoatNormalTexture
+            mWidget: texture_group
+            mHint: "Property: clearcoatNormalTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: Tweak_N47 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: Tweak_N47 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_NORMAL_TEX
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture Transform
+            mType: Define
+            mName: ENABLE_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_TEXTURE_TRANSFORM
+              
+              Enable Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: ENABLE_BASE_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_BASE_TEXTURE_TRANSFORM
+              
+              Enable Base Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: baseColorTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: baseColorTexture_offset
+              
+              Base Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: baseColorTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: baseColorTexture_scale
+              
+              Base Texture size transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: baseColorTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: baseColorTexture_rotation
+              
+              Base Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_BASE_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Emissive Texture
+            mType: Define
+            mName: ENABLE_EMISSIVE_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_EMISSIVE_TEXTURE_TRANSFORM
+              
+              Enable Emissive Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: emissiveTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: emissiveTexture_offset
+              
+              Emissive Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: emissiveTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: emissiveTexture_scale
+              
+              Emissive Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: emissiveTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: emissiveTexture_rotation
+              
+              Emissive Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_EMISSIVE_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Texture
+            mType: Define
+            mName: ENABLE_NORMAL_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_NORMAL_TEXTURE_TRANSFORM
+              
+              Enable Normal Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: normalTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: normalTexture_offset
+              
+              Normal Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: normalTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: normalTexture_scale
+              
+              Normal Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: normalTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: normalTexture_rotation
+              
+              Normal Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_NORMAL_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic Roughness Texture
+            mType: Define
+            mName: ENABLE_METALLIC_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_METALLIC_ROUGHNESS_TEXTURE_TRANSFORM
+              
+              Enable Metallic Roughness Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: metallicRoughnessTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: metallicRoughnessTexture_offset
+              
+              Metallic Roughness Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: metallicRoughnessTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: metallicRoughnessTexture_scale
+              
+              Metallic Roughness Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: metallicRoughnessTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: metallicRoughnessTexture_rotation
+              
+              Metallic Roughness Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_METALLIC_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transmission Texture
+            mType: Define
+            mName: ENABLE_TRANSMISSION_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_TRANSMISSION_TEXTURE_TRANSFORM
+              
+              Enable Transmission Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: transmissionTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: transmissionTexture_offset
+              
+              Transmission Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: transmissionTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: transmissionTexture_scale
+              
+              Transmission Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: transmissionTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: transmissionTexture_rotation
+              
+              Transmission Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_TRANSMISSION_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Sheen Color Texture
+            mType: Define
+            mName: ENABLE_SHEEN_COLOR_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN_COLOR_TEXTURE_TRANSFORM
+              
+              Enable Sheen Color Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: sheenColorTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenColorTexture_offset
+              
+              Sheen Color Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: sheenColorTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenColorTexture_scale
+              
+              Sheen Color Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: sheenColorTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenColorTexture_rotation
+              
+              Sheen Color Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN_COLOR_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Sheen Roughness Texture
+            mType: Define
+            mName: ENABLE_SHEEN_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_SHEEN_ROUGHNESS_TEXTURE_TRANSFORM
+              
+              Enable Sheen Roughness Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: sheenRoughnessTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenRoughnessTexture_offset
+              
+              Sheen Roughness Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: sheenRoughnessTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenRoughnessTexture_scale
+              
+              Sheen Roughness Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: sheenRoughnessTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: sheenRoughnessTexture_rotation
+              
+              Sheen Roughness Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_SHEEN_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Clearcoat Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_TEXTURE_TRANSFORM
+              
+              Enable Clearcoat Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: clearcoatTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatTexture_offset
+              
+              Clearcoat Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: clearcoatTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatTexture_scale
+              
+              Clearcoat Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: clearcoatTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatTexture_rotation
+              
+              Clearcoat Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Clearcoat Normal Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_NORMAL_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_NORMAL_TEXTURE_TRANSFORM
+              
+              Enable Clearcoat Normal Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: clearcoatNormalTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatNormalTexture_offset
+              
+              Clearcoat Normal Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: clearcoatNormalTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatNormalTexture_scale
+              
+              Clearcoat Noraml Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: clearcoatNormalTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatNormalTexture_rotation
+              
+              Clearcoat Normal Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_NORMAL_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Clearcoat Roughness Texture
+            mType: Define
+            mName: ENABLE_CLEARCOAT_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_start
+            mHint: |-
+              Define: ENABLE_CLEARCOAT_ROUGHNESS_TEXTURE_TRANSFORM
+              
+              Enable Clearcoat Roughness Texture Transform.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: clearcoatRoughnessTexture_offset
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatRoughnessTexture_offset
+              
+              Clearcoat Roughness Texture offset transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: clearcoatRoughnessTexture_scale
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatRoughnessTexture_scale
+              
+              Clearcoat Roughness Texture scale transform.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rotation
+            mType: Property
+            mName: clearcoatRoughnessTexture_rotation
+            mWidget: spinbox
+            mHint: |-
+              Property: clearcoatRoughnessTexture_rotation
+              
+              Clearcoat Roughness Texture rotation transform, values are in degrees.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_CLEARCOAT_ROUGHNESS_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ENABLE_TEXTURE_TRANSFORM
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: b52ff43c-5000-43cc-948e-bf561ba00b5a/f1680ab394222f8ffb87ac48e0d98f40/Data/.hidden/6d7e450/Material.004.glsl
+      Defines:
+        []
+      Properties:
+        {}
+    - !<Material/6e47507b-26a8-4d5c-89db-d24be423fa12>
+      PackagePath: Materials/kiraz
+      PassesInfo:
+        - !<own> 3f0777f3-bb86-43d6-8fe3-168e7842cf0f
+    - !<Material/fa6b3188-2f5c-4102-9b15-b8042e47b7e6>
+      PackagePath: Materials/Material.002
+      PassesInfo:
+        - !<own> bada66e0-3abe-4b74-8039-65cf7e2b4c58
+    - !<Material/37f4e4df-7a74-4db9-94c3-f4b99267d7f5>
+      PackagePath: Materials/Material.001
+      PassesInfo:
+        - !<own> bdae921c-a72c-4dc3-a10c-a6ea8694ac07
+    - !<Material/3804c0c1-ad5a-4922-9750-4ff019cbb4be>
+      PackagePath: Materials/kiraz.003
+      PassesInfo:
+        - !<own> b347f1d6-ecb7-4816-9163-321631d24b25
+  SourceHash: f1680ab394222f8ffb87ac48e0d98f40
+  FileHash: ddc53f019d3cc706a63fe7608d3701cb
+  NativePackageItems:
+    []
+- !<RenderMeshVisual/14667ef0-ec5d-40d3-bbd3-6d4f19e4387d>
+  PrefabRemaps:
+    []
+  Name: Plane.008
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3804c0c1-ad5a-4922-9750-4ff019cbb4be
+  Mesh: !<reference> c1614a54-0f72-4703-ac50-0683dea2adbc
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/26c6d481-15c8-434d-9edd-e3e1b6fb0d7f>
+  PrefabRemaps:
+    []
+  Name: cakeNEW2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7d23a267-9442-424f-99c2-e8004fe3d43a
+  Components:
+    []
+- !<PassInfo/358f5efa-cb39-409f-a7b8-c451cdd1ba56>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - baseColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - baseColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - baseColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - baseColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - baseColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatNormalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatNormalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatNormalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatNormalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatNormalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - emissiveTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - emissiveTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - emissiveTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - metallicRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - metallicRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - metallicRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - metallicRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - metallicRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - normalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - normalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - normalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - screenTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - screenTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+    - sheenColorFactor:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - sheenColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessFactor:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionFactor:
+        typeIdx: 1
+        value: 0.000000
+    - transmissionTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - transmissionTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - transmissionTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - transmissionTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+    - NODE_10_DROPLIST_ITEM 0
+    - NODE_11_DROPLIST_ITEM 0
+    - NODE_7_DROPLIST_ITEM 0
+    - NODE_8_DROPLIST_ITEM 0
+    - Tweak_N30 0
+    - Tweak_N32 0
+    - Tweak_N37 0
+    - Tweak_N44 0
+    - Tweak_N47 0
+    - Tweak_N60 0
+  BlendMode: Disabled
+  Properties:
+    Port_Albedo_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Emissive_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Metallic_N405:
+      typeIdx: 1
+      value: 0.000000
+    Port_Opacity_N405:
+      typeIdx: 1
+      value: 1.000000
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_SpecularAO_N405:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.536371, y: 0.555989, z: 0.800000, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.000000
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.500000
+  Pass: !<reference> cc756f1a-8b28-4894-80d5-5c05a6e1fc7c
+- !<PassInfo/3f0777f3-bb86-43d6-8fe3-168e7842cf0f>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - baseColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - baseColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - baseColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - baseColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - baseColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatNormalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatNormalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatNormalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatNormalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatNormalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - emissiveTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - emissiveTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - emissiveTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - metallicRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - metallicRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - metallicRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - metallicRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - metallicRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - normalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - normalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - normalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - screenTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - screenTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+    - sheenColorFactor:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - sheenColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessFactor:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionFactor:
+        typeIdx: 1
+        value: 0.000000
+    - transmissionTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - transmissionTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - transmissionTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - transmissionTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+    - NODE_10_DROPLIST_ITEM 0
+    - NODE_11_DROPLIST_ITEM 0
+    - NODE_7_DROPLIST_ITEM 0
+    - NODE_8_DROPLIST_ITEM 0
+    - Tweak_N30 0
+    - Tweak_N32 0
+    - Tweak_N37 0
+    - Tweak_N44 0
+    - Tweak_N47 0
+    - Tweak_N60 0
+  BlendMode: Disabled
+  Properties:
+    Port_Albedo_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Emissive_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Metallic_N405:
+      typeIdx: 1
+      value: 0.000000
+    Port_Opacity_N405:
+      typeIdx: 1
+      value: 1.000000
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_SpecularAO_N405:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.710561, y: 0.004683, z: 0.028446, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.520362
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.002262
+  Pass: !<reference> cc756f1a-8b28-4894-80d5-5c05a6e1fc7c
+- !<AnimationPlayer/461ba6d5-e22c-418d-b0ef-53867caaa3da>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<SceneObject/629d5304-d353-45e8-bc31-573d10893c7e>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7741cf5e-695e-4443-a84b-06631b41ec35
+    - !<own> acc237f9-248d-4182-a5a9-e6fdcafd3cd1
+  Components:
+    - !<own> 461ba6d5-e22c-418d-b0ef-53867caaa3da
+- !<SceneObject/7741cf5e-695e-4443-a84b-06631b41ec35>
+  PrefabRemaps:
+    []
+  Name: cake main
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.683263, y: 0.114298, z: -0.854539}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 84086d3e-f459-4852-b876-8c99d6adbb49
+    - !<own> 816e63ef-e729-4b3f-bd12-681f6f525f18
+    - !<own> f38104f9-b1e1-4a46-b9d6-0683168e68ff
+    - !<own> 97b772f3-417b-4462-9892-51f291ffbe22
+- !<SceneObject/7d23a267-9442-424f-99c2-e8004fe3d43a>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 629d5304-d353-45e8-bc31-573d10893c7e
+  Components:
+    []
+- !<RenderMeshVisual/816e63ef-e729-4b3f-bd12-681f6f525f18>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6e47507b-26a8-4d5c-89db-d24be423fa12
+  Mesh: !<reference> bca6366a-b9c9-4884-a03d-5a4b6c70276e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/84086d3e-f459-4852-b876-8c99d6adbb49>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3fe211a-9af5-4834-840b-f041f189a441
+  Mesh: !<reference> b2887266-05e5-4f2e-8600-b3d1f887fe3d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/97b772f3-417b-4462-9892-51f291ffbe22>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 37f4e4df-7a74-4db9-94c3-f4b99267d7f5
+  Mesh: !<reference> 0959b9e2-f1a8-4530-8028-e12eefe832ca
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/acc237f9-248d-4182-a5a9-e6fdcafd3cd1>
+  PrefabRemaps:
+    []
+  Name: fiyonk
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.683267, y: 0.116361, z: -0.854344}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 14667ef0-ec5d-40d3-bbd3-6d4f19e4387d
+- !<PassInfo/b347f1d6-ecb7-4816-9163-321631d24b25>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - baseColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - baseColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - baseColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - baseColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - baseColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatNormalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatNormalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatNormalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatNormalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatNormalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - emissiveTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - emissiveTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - emissiveTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - metallicRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - metallicRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - metallicRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - metallicRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - metallicRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - normalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - normalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - normalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - screenTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - screenTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+    - sheenColorFactor:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - sheenColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessFactor:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionFactor:
+        typeIdx: 1
+        value: 0.000000
+    - transmissionTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - transmissionTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - transmissionTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - transmissionTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+    - NODE_10_DROPLIST_ITEM 0
+    - NODE_11_DROPLIST_ITEM 0
+    - NODE_7_DROPLIST_ITEM 0
+    - NODE_8_DROPLIST_ITEM 0
+    - Tweak_N30 0
+    - Tweak_N32 0
+    - Tweak_N37 0
+    - Tweak_N44 0
+    - Tweak_N47 0
+    - Tweak_N60 0
+  BlendMode: Disabled
+  Properties:
+    Port_Albedo_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Emissive_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Metallic_N405:
+      typeIdx: 1
+      value: 0.000000
+    Port_Opacity_N405:
+      typeIdx: 1
+      value: 1.000000
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_SpecularAO_N405:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.710561, y: 0.004683, z: 0.028446, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.520362
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.002262
+  Pass: !<reference> cc756f1a-8b28-4894-80d5-5c05a6e1fc7c
+- !<PassInfo/bada66e0-3abe-4b74-8039-65cf7e2b4c58>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - baseColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - baseColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - baseColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - baseColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - baseColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatNormalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatNormalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatNormalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatNormalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatNormalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - emissiveTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - emissiveTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - emissiveTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - metallicRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - metallicRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - metallicRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - metallicRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - metallicRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - normalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - normalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - normalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - screenTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - screenTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+    - sheenColorFactor:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - sheenColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessFactor:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionFactor:
+        typeIdx: 1
+        value: 0.000000
+    - transmissionTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - transmissionTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - transmissionTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - transmissionTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+    - NODE_10_DROPLIST_ITEM 0
+    - NODE_11_DROPLIST_ITEM 0
+    - NODE_7_DROPLIST_ITEM 0
+    - NODE_8_DROPLIST_ITEM 0
+    - Tweak_N30 0
+    - Tweak_N32 0
+    - Tweak_N37 0
+    - Tweak_N44 0
+    - Tweak_N47 0
+    - Tweak_N60 0
+  BlendMode: Disabled
+  Properties:
+    Port_Albedo_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Emissive_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Metallic_N405:
+      typeIdx: 1
+      value: 0.000000
+    Port_Opacity_N405:
+      typeIdx: 1
+      value: 1.000000
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_SpecularAO_N405:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.800000, y: 0.706834, z: 0.706834, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.271493
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.500000
+  Pass: !<reference> cc756f1a-8b28-4894-80d5-5c05a6e1fc7c
+- !<PassInfo/bdae921c-a72c-4dc3-a10c-a6ea8694ac07>
+  CachedProperties:
+    - Port_AO_N405:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - Port_DebugSheenEnvLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_DebugSheenPunctualLightMult_N003:
+        typeIdx: 1
+        value: 1.000000
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N043:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N062:
+        typeIdx: 1
+        value: 0.000000
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - alpha:
+        typeIdx: 1
+        value: 0.000000
+    - baseColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - baseColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - baseColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - baseColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - baseColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - baseColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatNormalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatNormalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatNormalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatNormalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatNormalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessFactor:
+        typeIdx: 1
+        value: 0.000000
+    - clearcoatRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - clearcoatTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - clearcoatTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - clearcoatTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - clearcoatTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - emissiveTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - emissiveTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - emissiveTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - emissiveTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - mainColor:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - metallicRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - metallicRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - metallicRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - metallicRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - metallicRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - normalTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - normalTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - normalTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - normalTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - screenTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - screenTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - selfIllum:
+        typeIdx: 1
+        value: 0.000000
+    - sheenColorFactor:
+        typeIdx: 4
+        value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    - sheenColorTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenColorTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenColorTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenColorTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenColorTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessFactor:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - sheenRoughnessTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - sheenRoughnessTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - sheenRoughnessTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - sheenRoughnessTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionFactor:
+        typeIdx: 1
+        value: 0.000000
+    - transmissionTexture:
+        typeIdx: 9
+        value:
+          id: 00000000-0000-0000-0000-000000000000
+          sampler:
+            filteringMode: Trilinear
+            wrapModeU: Repeat
+            wrapModeV: Repeat
+            wrapModeW: Repeat
+            borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            mipmaps: false
+          type: Texture2D
+    - transmissionTextureTransform:
+        typeIdx: 7
+        value:
+          0: {x: 1.000000, y: 0.000000, z: 0.000000}
+          1: {x: 0.000000, y: 1.000000, z: 0.000000}
+          2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - transmissionTexture_offset:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+    - transmissionTexture_rotation:
+        typeIdx: 1
+        value: 1.000000
+    - transmissionTexture_scale:
+        typeIdx: 3
+        value: {x: 1.000000, y: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_GLTF_LIGHTING
+    - NODE_10_DROPLIST_ITEM 0
+    - NODE_11_DROPLIST_ITEM 0
+    - NODE_7_DROPLIST_ITEM 0
+    - NODE_8_DROPLIST_ITEM 0
+    - Tweak_N30 0
+    - Tweak_N32 0
+    - Tweak_N37 0
+    - Tweak_N44 0
+    - Tweak_N47 0
+    - Tweak_N60 0
+  BlendMode: Disabled
+  Properties:
+    Port_Albedo_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Emissive_N405:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Metallic_N405:
+      typeIdx: 1
+      value: 0.000000
+    Port_Opacity_N405:
+      typeIdx: 1
+      value: 1.000000
+    Port_SpecularAO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_SpecularAO_N405:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColorFactor:
+      typeIdx: 5
+      value: {x: 0.800000, y: 0.006768, z: 0.029080, w: 1.000000}
+    emissiveFactor:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    metallicFactor:
+      typeIdx: 1
+      value: 0.470588
+    roughnessFactor:
+      typeIdx: 1
+      value: 0.726244
+  Pass: !<reference> cc756f1a-8b28-4894-80d5-5c05a6e1fc7c
+- !<RenderMeshVisual/f38104f9-b1e1-4a46-b9d6-0683168e68ff>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fa6b3188-2f5c-4102-9b15-b8042e47b7e6
+  Mesh: !<reference> c515904e-5d70-4435-b481-009ba129ee79
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

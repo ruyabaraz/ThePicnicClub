@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b8abece1-fc5e-418e-aa29-67d0c644c32d: 331cc55f-a9f5-4ab0-b42c-1c4ac107750e/663f233678aa63d6faee9bb444cc412b/Data/MaterialParams.png
+  Assets:
+    - !<FileTexture/b8abece1-fc5e-418e-aa29-67d0c644c32d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1
+        Height: 1
+  SourceHash: 663f233678aa63d6faee9bb444cc412b
+  FileHash: e8cff941391d7414f989fc96762f9460
+  NativePackageItems:
+    []

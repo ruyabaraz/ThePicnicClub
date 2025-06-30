@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/9f9c5e2e-2d55-42c9-a97c-3b64fc64cf16>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 0bcaa05a-2c13-48fb-ba6f-b3805f23aee7
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 0bcaa05a-2c13-48fb-ba6f-b3805f23aee7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 4WHGX1gsSGS2GQvg9gPQCr
+  AssetDataMap:
+    VFXGraph: !<own> 341aefd8-544c-4e66-8f50-c6edff727dbf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/341aefd8-544c-4e66-8f50-c6edff727dbf>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/eb96eacd-e729-4622-b627-124a45d02464>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        Tweak_N79:
+          typeIdx: 5
+          value: {x: 0.726589, y: 0.729137, z: 0.736797, w: 1.000000}
+        Tweak_N80:
+          typeIdx: 5
+          value: {x: 0.570031, y: 0.577157, z: 0.582803, w: 1.000000}
+        LifeMax:
+          typeIdx: 1
+          value: 2.500000
+        LifeMin:
+          typeIdx: 1
+          value: 0.500000
+      RenderProperties:
+        baseTex:
+          typeIdx: 9
+          value:
+            id: 5e58ad9f-d99b-4942-804d-cdb7954ab22a
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []

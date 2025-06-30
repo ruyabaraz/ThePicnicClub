@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    fd231f27-58f8-4ac8-89a3-6c5fc4bb3ff5: 2c1a9f9a-32ba-4526-9dba-a50330be9f30/538ef146279dd33abb9f030c75650af5/Data/lemon.mesh
+  Assets:
+    - !<FileMesh/fd231f27-58f8-4ac8-89a3-6c5fc4bb3ff5>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 556
+        Vertices: 300
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.038414, y: 0.067246, z: 0.070538}
+  SourceHash: 538ef146279dd33abb9f030c75650af5
+  FileHash: f88a041ad60f9d8c90628a3d2b56fe7c
+  NativePackageItems:
+    []

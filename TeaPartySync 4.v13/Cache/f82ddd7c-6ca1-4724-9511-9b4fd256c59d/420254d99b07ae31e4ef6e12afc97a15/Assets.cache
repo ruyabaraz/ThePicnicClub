@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    35cf7ea1-c008-4271-9909-c0c0670b9a4d: f82ddd7c-6ca1-4724-9511-9b4fd256c59d/420254d99b07ae31e4ef6e12afc97a15/Data/cake.mesh
+  Assets:
+    - !<FileMesh/35cf7ea1-c008-4271-9909-c0c0670b9a4d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 836
+        Vertices: 502
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.739701, y: 2.736942, z: 1.824900}
+  SourceHash: 420254d99b07ae31e4ef6e12afc97a15
+  FileHash: 308cf83bb20a3fe753defa1b4b6cf902
+  NativePackageItems:
+    []

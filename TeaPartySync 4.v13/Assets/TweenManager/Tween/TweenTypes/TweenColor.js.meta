@@ -1,0 +1,74 @@
+- !<AssetImportMetadata/ac385f03-0b3c-45c3-bb45-e3ee63de4376>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> a70dfdd4-da22-403a-b964-ea6d0028f9bc
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> a70dfdd4-da22-403a-b964-ea6d0028f9bc
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> a9eff588-b9f5-4e09-9cc7-91656223a841
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a9eff588-b9f5-4e09-9cc7-91656223a841>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 29c8def8-d22b-4a36-93b7-d21fe25b23c0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    additive: false
+    colorProperty: false
+    delay: false
+    easingFunction: false
+    easingType: false
+    end: false
+    from: false
+    ignoreAlpha: false
+    loopType: false
+    movementType: false
+    offset: false
+    playAutomatically: false
+    recursive: false
+    sceneObjectReference: false
+    start: false
+    time: false
+    to: false
+    tweenName: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 0
+      movementType: 0
+      colorProperty: 0
+      start: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      end: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      to: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      from: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      offset: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      additive: false
+      recursive: false
+      ignoreAlpha: false
+      time: !<float> 1.000000
+      delay: !<float> 0.000000
+      easingFunction: Quadratic
+      easingType: Out
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,91 @@
+- !<AssetCache>
+  AssetFiles:
+    45613781-ef55-47e5-ab4a-d98cf93cd461: b1b668fa-a268-7c70-6348-1a350530f454/896f115e8c7452a9259e125d6afc900e/Data/Fluid Input Clear.ss_graph
+  Assets:
+    - !<ShaderGraphPass/45613781-ef55-47e5-ab4a-d98cf93cd461>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Max1_N000:
+          typeIdx: 1
+          value: 50.000000
+        Port_Max2_N000:
+          typeIdx: 1
+          value: 50.000000
+        Port_Min1_N000:
+          typeIdx: 1
+          value: -50.000000
+        Port_Min2_N000:
+          typeIdx: 1
+          value: -50.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value1_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value2_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: b1b668fa-a268-7c70-6348-1a350530f454/896f115e8c7452a9259e125d6afc900e/Data/cd070e4/Fluid Input Clear.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 896f115e8c7452a9259e125d6afc900e
+  FileHash: 093f09d74c26b018186d344b391959b5
+  NativePackageItems:
+    []

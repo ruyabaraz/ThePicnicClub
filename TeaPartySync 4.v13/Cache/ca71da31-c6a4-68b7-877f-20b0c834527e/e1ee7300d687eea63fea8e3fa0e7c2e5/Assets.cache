@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5c42c610-b17d-4303-bc1d-2acd560417d8: ca71da31-c6a4-68b7-877f-20b0c834527e/e1ee7300d687eea63fea8e3fa0e7c2e5/Data/handMeshTapTexture.png
+  Assets:
+    - !<FileTexture/5c42c610-b17d-4303-bc1d-2acd560417d8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: e1ee7300d687eea63fea8e3fa0e7c2e5
+  FileHash: 7741814447f16d94826ecc3b563713c6
+  NativePackageItems:
+    []

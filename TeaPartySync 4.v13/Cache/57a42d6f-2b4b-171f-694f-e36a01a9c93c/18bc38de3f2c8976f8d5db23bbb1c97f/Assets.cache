@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e824ed6e-2851-404c-a6f3-fa96a68871d3: 57a42d6f-2b4b-171f-694f-e36a01a9c93c/18bc38de3f2c8976f8d5db23bbb1c97f/Data/red-gingham.001.jpg
+  Assets:
+    - !<FileTexture/e824ed6e-2851-404c-a6f3-fa96a68871d3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1847
+        Height: 1847
+  SourceHash: 18bc38de3f2c8976f8d5db23bbb1c97f
+  FileHash: 540b4bb0d8361ea05eeaa3b5d07c17e3
+  NativePackageItems:
+    []

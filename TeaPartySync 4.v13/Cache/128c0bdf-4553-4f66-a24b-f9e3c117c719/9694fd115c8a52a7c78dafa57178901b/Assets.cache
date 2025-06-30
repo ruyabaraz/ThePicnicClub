@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6b2d2e30-9240-4460-a943-b199c4b22cf1: 128c0bdf-4553-4f66-a24b-f9e3c117c719/9694fd115c8a52a7c78dafa57178901b/Data/glass.mesh
+  Assets:
+    - !<FileMesh/6b2d2e30-9240-4460-a943-b199c4b22cf1>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1632
+        Vertices: 1018
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.169063, y: 0.169063, z: 0.275483}
+  SourceHash: 9694fd115c8a52a7c78dafa57178901b
+  FileHash: 71baa9d0004e2f1a85ab98a25e5bf5ac
+  NativePackageItems:
+    []

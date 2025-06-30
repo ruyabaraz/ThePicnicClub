@@ -1,0 +1,139 @@
+- !<ObjectPrefab/bda926b9-532b-452d-9cd0-4c90eaed1715>
+  PackagePath: ""
+  objects:
+    - !<own> df50aa4c-f48a-4dbb-bf71-f157b6467b18
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/43b87a0a-7e2a-457b-a103-ce157ee839d1>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6e47507b-26a8-4d5c-89db-d24be423fa12
+  Mesh: !<reference> bca6366a-b9c9-4884-a03d-5a4b6c70276e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/48a603c2-2742-4dce-a29e-1af6050737e5>
+  PrefabRemaps:
+    []
+  Name: Plane.008
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3804c0c1-ad5a-4922-9750-4ff019cbb4be
+  Mesh: !<reference> c1614a54-0f72-4703-ac50-0683dea2adbc
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/53fe84fa-cc34-44ec-b248-57e5ddc44c25>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 37f4e4df-7a74-4db9-94c3-f4b99267d7f5
+  Mesh: !<reference> 0959b9e2-f1a8-4530-8028-e12eefe832ca
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ba80b114-47bc-4802-a098-d445ebf2e3fb>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fa6b3188-2f5c-4102-9b15-b8042e47b7e6
+  Mesh: !<reference> c515904e-5d70-4435-b481-009ba129ee79
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d26ab76b-c6f4-4a13-8c9b-3b014df5b99f>
+  PrefabRemaps:
+    []
+  Name: fiyonk
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000004, y: 0.002063, z: 0.000195}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 48a603c2-2742-4dce-a29e-1af6050737e5
+- !<SceneObject/df50aa4c-f48a-4dbb-bf71-f157b6467b18>
+  PrefabRemaps:
+    []
+  Name: cake main
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -3.940793, y: 15.139820, z: -68.724335}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d26ab76b-c6f4-4a13-8c9b-3b014df5b99f
+  Components:
+    - !<own> e7e493cb-fbae-4ace-a848-8de081beee95
+    - !<own> 43b87a0a-7e2a-457b-a103-ce157ee839d1
+    - !<own> ba80b114-47bc-4802-a098-d445ebf2e3fb
+    - !<own> 53fe84fa-cc34-44ec-b248-57e5ddc44c25
+- !<RenderMeshVisual/e7e493cb-fbae-4ace-a848-8de081beee95>
+  PrefabRemaps:
+    []
+  Name: Circle
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d3fe211a-9af5-4834-840b-f041f189a441
+  Mesh: !<reference> b2887266-05e5-4f2e-8600-b3d1f887fe3d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

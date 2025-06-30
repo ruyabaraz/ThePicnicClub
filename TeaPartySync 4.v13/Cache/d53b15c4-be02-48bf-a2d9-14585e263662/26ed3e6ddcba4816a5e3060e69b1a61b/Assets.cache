@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    1b791ebc-cce2-461b-b2c0-3613cbd4ddc3: d53b15c4-be02-48bf-a2d9-14585e263662/26ed3e6ddcba4816a5e3060e69b1a61b/Data/glitter_long_2.mp3
+  Assets:
+    - !<FileAudioTrack/1b791ebc-cce2-461b-b2c0-3613cbd4ddc3>
+      PackagePath: ""
+  SourceHash: 26ed3e6ddcba4816a5e3060e69b1a61b
+  FileHash: 5e5a26b8545bce2a80993db50d98aeb2
+  NativePackageItems:
+    []

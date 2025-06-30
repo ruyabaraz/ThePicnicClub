@@ -1,0 +1,47 @@
+- !<AssetImportMetadata/cd00c312-e9d9-440c-a908-2a67378094ce>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 19b4f85f-793b-400e-8f75-ceaa4085b8a1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 19b4f85f-793b-400e-8f75-ceaa4085b8a1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 563eaade-61a6-4f82-bcbc-612d6f6fe9e7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/563eaade-61a6-4f82-bcbc-612d6f6fe9e7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 104154dd-34f1-4adf-86ad-1684ab11dc76
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    foodNames: false
+    foodPrefabs: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - foodPrefabs: !<reference.SceneObject[]>
+        []
+      foodNames: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input SceneObject[] foodPrefabs = {}"
+    - "// @input string[] foodNames = {}"

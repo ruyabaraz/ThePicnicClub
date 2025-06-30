@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    dc32ca08-0061-4070-b07d-f435333c7a08: b59bc1dd-d28c-4388-8064-0f0bfa3ad9bd/9e874dc2dfde14a4003f65c5b6042f70/Data/ele.mesh
+  Assets:
+    - !<FileMesh/dc32ca08-0061-4070-b07d-f435333c7a08>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2656
+        Vertices: 1517
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 3.087024, y: 1.203640, z: 3.179022}
+  SourceHash: 9e874dc2dfde14a4003f65c5b6042f70
+  FileHash: fd5b6bb7d23c447815ed067b8d24a2b4
+  NativePackageItems:
+    []

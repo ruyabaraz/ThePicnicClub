@@ -1,0 +1,158 @@
+- !<ObjectPrefab/fdb02f27-b982-4603-9491-dfb9563f1504>
+  PackagePath: ""
+  objects:
+    - !<own> 75827843-17e2-4bfd-81d9-5ff692fe8245
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/42081cd0-634a-438b-beea-abebff52fa9a>
+  PrefabRemaps:
+    []
+  Name: Roundcube.008
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4b2006c7-93ee-48ea-aefb-eb63a0a965ce
+  Mesh: !<reference> 01fa9885-84d7-4067-ac9d-c98eab7ba713
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AnimationPlayer/5c452fe6-a7a2-4e85-aa27-01189cdc5a80>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<RenderMeshVisual/6a5657fb-1617-4a56-bda5-6919475719f4>
+  PrefabRemaps:
+    []
+  Name: Roundcube.008
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 204e6119-3281-45f1-b55d-0859654a5bbd
+  Mesh: !<reference> de0ccb26-3b0a-49ee-8c2e-981303e4c669
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/75827843-17e2-4bfd-81d9-5ff692fe8245>
+  PrefabRemaps:
+    []
+  Name: cupcake_cherryNEW
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 84424d26-5aae-4b21-9b6b-ad9c83d8078d
+  Components:
+    []
+- !<SceneObject/7aa3c7c0-8041-44d0-8072-75c0a241c54f>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b3dd229b-5c2d-438b-a013-2ee5dd855280
+  Components:
+    - !<own> 5c452fe6-a7a2-4e85-aa27-01189cdc5a80
+- !<SceneObject/84424d26-5aae-4b21-9b6b-ad9c83d8078d>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7aa3c7c0-8041-44d0-8072-75c0a241c54f
+  Components:
+    []
+- !<SceneObject/b3dd229b-5c2d-438b-a013-2ee5dd855280>
+  PrefabRemaps:
+    []
+  Name: cherry_cupcake
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.298742, y: 0.054851, z: -0.325168}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d3b5615f-8456-4435-b46c-9ffb4ae967ef
+    - !<own> c5d49ade-3b6c-4793-a0a4-aa4a0166d8c9
+    - !<own> 6a5657fb-1617-4a56-bda5-6919475719f4
+    - !<own> 42081cd0-634a-438b-beea-abebff52fa9a
+- !<RenderMeshVisual/c5d49ade-3b6c-4793-a0a4-aa4a0166d8c9>
+  PrefabRemaps:
+    []
+  Name: Roundcube.008
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 73479ee6-4eaa-4396-8bcb-f34c15427828
+  Mesh: !<reference> b4621e59-b6fe-403a-9f73-a4889b03b1b5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/d3b5615f-8456-4435-b46c-9ffb4ae967ef>
+  PrefabRemaps:
+    []
+  Name: Roundcube.008
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cd8fc33f-79ac-4fc2-b7d5-27161e8db1bf
+  Mesh: !<reference> 9f4e7c9f-871b-41fb-a338-e615db3a7680
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

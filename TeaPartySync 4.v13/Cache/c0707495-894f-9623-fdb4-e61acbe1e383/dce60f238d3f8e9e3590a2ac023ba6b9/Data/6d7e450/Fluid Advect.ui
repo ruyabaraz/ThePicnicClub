@@ -1,0 +1,201 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "sVelocity", 
+                	"label":       "sVelocity", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "sTarget", 
+                	"label":       "sTarget", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "sBoundary", 
+                	"label":       "sBoundary", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "sColor", 
+                	"label":       "sColor", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "velocityRange",
+                	"label":       "velocityRange",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "impulseRange",
+                	"label":       "impulseRange",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "diffusionRate",
+                	"label":       "diffusionRate",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "timeMult",
+                	"label":       "timeMult",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "wrapMode",
+                	"label":       "wrapMode",
+                	"widget":      "spinbox",
+                	"step":        1,
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "reset",
+                	"label":       "reset",
+                	"widget":      "spinbox",
+                	"step":        1,
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "impulseMult",
+                	"label":       "impulseMult",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "useVelocityInputTexture",
+                	"label":       "useVelocityInputTexture",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "useVelocityComponentInput",
+                	"label":       "useVelocityComponentInput",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "userVelocityInputTex", 
+                	"label":       "userVelocityInputTex", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "sImpulseTexture", 
+                	"label":       "sImpulseTexture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "buoyancyEnable",
+                	"label":       "buoyancyEnable",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "ambientTemperature",
+                	"label":       "ambientTemperature",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "buoyancy",
+                	"label":       "buoyancy",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "weight",
+                	"label":       "weight",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "PostProcessing",
+	
+	"extraDefines":
+	[
+		
+	]
+}

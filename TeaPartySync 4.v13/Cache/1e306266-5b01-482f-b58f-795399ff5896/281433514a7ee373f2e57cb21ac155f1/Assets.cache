@@ -1,0 +1,97 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 281433514a7ee373f2e57cb21ac155f1
+  FileHash: c779d2d7987c69fab2e7573e0377d634
+  NativePackageItems:
+    - !<own> 74bf96d5-9ca9-fdb4-dbaf-a08c52cda3f9
+    - !<own> 54f332c4-ffda-e045-6949-7a2c441b9c61
+    - !<own> 06262fa6-6703-06f1-8fdb-7801ce20ed69
+    - !<own> 405e571f-8dcf-d8a4-0805-fec627f80848
+    - !<own> 8b77d3a1-4bfe-33ea-40df-7720ff6ca042
+- !<AssetImportMetadata/06262fa6-6703-06f1-8fdb-7801ce20ed69>
+  ImportedAssetIds:
+    Material: !<reference> d4f6998c-a895-4bed-9ae8-308c275e334e
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> d4f6998c-a895-4bed-9ae8-308c275e334e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/405e571f-8dcf-d8a4-0805-fec627f80848>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 73b7a542-f08c-469a-bc47-8c9f2be84a7d
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 73b7a542-f08c-469a-bc47-8c9f2be84a7d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/54f332c4-ffda-e045-6949-7a2c441b9c61>
+  ImportedAssetIds:
+    Texture: !<reference> adc32f7c-53d9-401d-8f1e-b9230bb383d9
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> adc32f7c-53d9-401d-8f1e-b9230bb383d9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/74bf96d5-9ca9-fdb4-dbaf-a08c52cda3f9>
+  ImportedAssetIds:
+    Texture: !<reference> 99fcb666-9236-4cc2-b8af-2e1e1756b00d
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 99fcb666-9236-4cc2-b8af-2e1e1756b00d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/8b77d3a1-4bfe-33ea-40df-7720ff6ca042>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 9970d523-52fb-49fa-8c4b-9c72c640913e
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 9970d523-52fb-49fa-8c4b-9c72c640913e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

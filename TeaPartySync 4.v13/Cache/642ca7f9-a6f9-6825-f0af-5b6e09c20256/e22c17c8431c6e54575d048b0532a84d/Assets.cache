@@ -1,0 +1,161 @@
+- !<AssetCache>
+  AssetFiles:
+    b999ce25-d75a-457a-bf26-c4224ee660ad: 642ca7f9-a6f9-6825-f0af-5b6e09c20256/e22c17c8431c6e54575d048b0532a84d/Data/Fluid Divergence.ss_graph
+  Assets:
+    - !<ShaderGraphPass/b999ce25-d75a-457a-bf26-c4224ee660ad>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sVelocity
+            mType: Property
+            mName: sVelocity
+            mWidget: texture_group
+            mHint: "Property: sVelocity"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sBoundary
+            mType: Property
+            mName: sBoundary
+            mWidget: texture_group
+            mHint: "Property: sBoundary"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: velocityRange
+            mType: Property
+            mName: velocityRange
+            mWidget: spinbox
+            mHint: "Property: velocityRange"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: halfInverseCell
+            mType: Property
+            mName: halfInverseCell
+            mWidget: spinbox
+            mHint: "Property: halfInverseCell"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: divergenceRange
+            mType: Property
+            mName: divergenceRange
+            mWidget: spinbox
+            mHint: "Property: divergenceRange"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: reset
+            mType: Property
+            mName: reset
+            mWidget: spinbox
+            mHint: "Property: reset"
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: 642ca7f9-a6f9-6825-f0af-5b6e09c20256/e22c17c8431c6e54575d048b0532a84d/Data/cd070e4/Fluid Divergence.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: e22c17c8431c6e54575d048b0532a84d
+  FileHash: 3c235e116dd8d9ef74df44518e852ba0
+  NativePackageItems:
+    []

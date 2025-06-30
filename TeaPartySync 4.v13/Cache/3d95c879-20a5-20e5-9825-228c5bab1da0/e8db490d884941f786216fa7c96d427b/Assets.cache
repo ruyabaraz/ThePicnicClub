@@ -1,0 +1,257 @@
+- !<AssetCache>
+  AssetFiles:
+    f9c47be7-7bb7-46e2-8c24-80f234ebb085: 3d95c879-20a5-20e5-9825-228c5bab1da0/e8db490d884941f786216fa7c96d427b/Data/Ocean Surface Properties.ss_graph
+  Assets:
+    - !<ShaderGraphPass/f9c47be7-7bb7-46e2-8c24-80f234ebb085>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Frequency_N000:
+          typeIdx: 1
+          value: 0.200000
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N092:
+          typeIdx: 1
+          value: 1.180000
+        Port_Import_N095:
+          typeIdx: 1
+          value: 1.060000
+        Port_Import_N100:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input0_N102:
+          typeIdx: 5
+          value: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.000000}
+        Port_Input1_N094:
+          typeIdx: 5
+          value: {x: 0.212500, y: 0.715400, z: 0.072100, w: 0.000000}
+        Port_LODValue_N002:
+          typeIdx: 1
+          value: 0.000000
+        Port_MarchSteps_N000:
+          typeIdx: 1
+          value: 3.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Strength1_N003:
+          typeIdx: 1
+          value: 0.500000
+        Port_Strength2_N003:
+          typeIdx: 1
+          value: 0.500000
+        Port_UVCoord_N002:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: "Data From Script [DO NOT EDIT]"
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Amplitude
+            mType: Property
+            mName: amplitude
+            mWidget: slider
+            mHint: "Property: amplitude"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Choppiness
+            mType: Property
+            mName: choppiness
+            mWidget: slider
+            mHint: "Property: choppiness"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.100000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Speed
+            mType: Property
+            mName: speed
+            mWidget: slider
+            mHint: "Property: speed"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: offset
+            mWidget: slider
+            mHint: "Property: offset"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Noise Steps
+            mType: Property
+            mName: noiseSteps
+            mWidget: slider
+            mHint: "Property: noiseSteps"
+            mMin: 0.000000
+            mMax: 5.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Normal Steps
+            mType: Property
+            mName: norSteps
+            mWidget: slider
+            mHint: "Property: norSteps"
+            mMin: 0.000000
+            mMax: 8.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Fluid 2D
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Enable Fluid 2D
+            mType: Property
+            mName: enableFluid
+            mWidget: slider
+            mHint: "Property: enableFluid"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Fluid Normal
+            mType: Property
+            mName: fluidNormal
+            mWidget: texture_group
+            mHint: "Property: fluidNormal"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: 3d95c879-20a5-20e5-9825-228c5bab1da0/e8db490d884941f786216fa7c96d427b/Data/cd070e4/Ocean Surface Properties.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: e8db490d884941f786216fa7c96d427b
+  FileHash: 4d9b5a0b9ba970ab025e3e2125291faa
+  NativePackageItems:
+    []

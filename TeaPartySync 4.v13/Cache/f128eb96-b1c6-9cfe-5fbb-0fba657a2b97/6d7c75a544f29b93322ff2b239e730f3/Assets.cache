@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    be786156-8586-4921-845c-cacfc58f9617: f128eb96-b1c6-9cfe-5fbb-0fba657a2b97/6d7c75a544f29b93322ff2b239e730f3/Data/mask_outline.jpg
+  Assets:
+    - !<FileTexture/be786156-8586-4921-845c-cacfc58f9617>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 6d7c75a544f29b93322ff2b239e730f3
+  FileHash: 1e350b058185c3a759601d241d1a1d25
+  NativePackageItems:
+    []

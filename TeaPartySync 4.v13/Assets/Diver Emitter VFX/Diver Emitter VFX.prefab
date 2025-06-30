@@ -1,0 +1,34 @@
+- !<ObjectPrefab/41128c11-d8e8-4b3a-85ed-1fd622f41c60>
+  PackagePath: Diver Emitter VFX
+  objects:
+    - !<own> 5ca5d692-3f66-4d42-9298-ad09ed96be2c
+  LazyLoading: false
+  RetainAssets: true
+- !<VFXComponent/31228eca-0460-47d8-8ab1-cf41fa5a5ce7>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: -2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> e2fdb02b-31f4-4f27-9b20-a7f1a37c976b
+- !<SceneObject/5ca5d692-3f66-4d42-9298-ad09ed96be2c>
+  PrefabRemaps:
+    []
+  Name: Diver Emitter VFX
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -514.317871, y: 8098.013672, z: 4199.845215}
+    rotation: {x: -14.861455, y: 0.000100, z: 0.000000}
+    scale: {x: 41.000336, y: 41.000122, z: 41.000351}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 31228eca-0460-47d8-8ab1-cf41fa5a5ce7

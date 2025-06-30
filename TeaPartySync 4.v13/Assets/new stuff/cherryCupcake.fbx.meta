@@ -1,0 +1,271 @@
+- !<AssetImportMetadata/ac142c60-5d6b-46ab-bce5-64611ec83fc0>
+  ImportedAssetIds:
+    .hidden/cream: !<reference> 94af9bfe-0ebd-43d2-b3fa-4019d7376500
+    .hidden/white: !<reference> ae099665-58e4-4c0a-aca7-7816b41653ee
+    10f3da31c2c2aa89: !<reference> 44ffa9f8-db6e-49b7-99c5-a145aed045a4
+    3c89d021a0e1e6e9: !<reference> 8a5a09c2-0820-446d-b7a1-52386a19e9ec
+    66780cf3a4dcb2b8: !<reference> d243376d-8ac5-4660-b342-977a66a7807e
+    Animations/CubeCherry_CherryCubeAction: !<reference> aecf20dd-a473-4382-accd-a6b4c5676a35
+    Animations/cherry_cupcake_CherryCubeAction: !<reference> 4373a77b-a66d-4ced-9499-0bcb1d9fad61
+    Materials/cream: !<reference> b849699f-d165-491d-9c1f-244169f66b37
+    Materials/cream|cream|GraphPassInfo: !<reference> 60f78f5f-52b5-4d1a-ab20-ba179934f6ff
+    Materials/cupcake_CAKE2: !<reference> a08e21bf-9ebb-4a34-9124-b9942ac99739
+    Materials/cupcake_CAKE2|cupcake_CAKE2|GraphPassInfo: !<reference> 1f7a09be-3212-45c1-a9ac-1b940a57a281
+    Materials/cupcake_cup.001: !<reference> 321cfd3f-78b3-4653-9f1a-b0656ef5d7ca
+    Materials/cupcake_cup.001|cupcake_cup.001|GraphPassInfo: !<reference> 18e4060b-91d7-4148-bc49-5b452ed32e0f
+    Materials/kiraz.001: !<reference> d2abce50-556e-4c40-9b08-808dfd617010
+    Materials/kiraz.001|kiraz.001|GraphPassInfo: !<reference> 4cfafb17-37e4-4235-8cb6-71292a50c34a
+    Meshes/CubeCherry: !<reference> ed56c082-a27d-4e22-a462-36f16a094b4b
+    Meshes/cherry_cupcake: !<reference> 2f7b803c-95a2-4f3e-929a-3f7fac91f19f
+    Meshes/cherry_cupcake1: !<reference> 2690330a-3164-4e3a-b54a-5e45f00aca15
+    Meshes/cherry_cupcake2: !<reference> 29fbcb28-935d-43fb-89a8-7d5ea0c8ae6b
+    Meshes/cherry_cupcake3: !<reference> 7fffa879-eba8-4fec-ab53-0e5b9c011f1d
+    Scene: !<reference> fe78582e-f09d-44e5-97e7-e6419d9cc9cd
+    a8e81017e58864bc: !<reference> 86c731a4-96cb-43f1-b159-b22ea63b9fae
+    a8e81017e58885de: !<reference> f4c24b4f-ea9c-4c61-b3b6-50971dd8530f
+    a8e81017e588956f: !<reference> cb84fde7-41f5-479c-a487-d944894eee69
+    a8e81017e588f54d: !<reference> b482de6c-853a-4467-9c9a-308cf1a164ca
+    c0c1a181ff5518de: !<reference> 2165f8e8-c9b4-4a77-93b8-347ebb1c77e1
+    d56449042852f529: !<reference> b1e5b253-dbcb-4128-8fc7-88f730512883
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> fe78582e-f09d-44e5-97e7-e6419d9cc9cd
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> c76697c5-480f-4283-9a11-d08b714c5f18
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/031669d8-d3db-444d-b72e-77c8702466a8>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a08e21bf-9ebb-4a34-9124-b9942ac99739
+  Mesh: !<reference> 2690330a-3164-4e3a-b54a-5e45f00aca15
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3763c018-1363-41de-868a-35fb83ca7d56>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b849699f-d165-491d-9c1f-244169f66b37
+  Mesh: !<reference> 29fbcb28-935d-43fb-89a8-7d5ea0c8ae6b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7a16eb50-1414-4043-ac1a-bd27cbe98872>
+  PrefabRemaps:
+    []
+  Name: CubeCherry
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 59.640526, y: 10.075441, z: -62.940659}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 4.534741, y: 4.534741, z: 4.534741}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e63a9bfb-95f9-48e3-840c-4eb8b96683b0
+  Components:
+    - !<own> f8b18729-a556-4e55-9e06-94d4f3266697
+- !<AnimationPlayer/92b79761-a89d-4d8e-967b-3427f6567ed1>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> aecf20dd-a473-4382-accd-a6b4c5676a35
+      Name: CubeCherry|CherryCubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 76.250008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4373a77b-a66d-4ced-9499-0bcb1d9fad61
+      Name: cherry_cupcake|CherryCubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 76.250008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/9d66292e-c140-4a9f-ad60-42643f147adf>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 321cfd3f-78b3-4653-9f1a-b0656ef5d7ca
+  Mesh: !<reference> 7fffa879-eba8-4fec-ab53-0e5b9c011f1d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a259d2ea-5b85-4b1d-ae0e-224d28cdaeb0>
+  PrefabRemaps:
+    []
+  Name: cherryCupcake
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7a16eb50-1414-4043-ac1a-bd27cbe98872
+  Components:
+    - !<own> 92b79761-a89d-4d8e-967b-3427f6567ed1
+- !<ObjectPrefab/ad5aa048-7c82-4254-94e4-bd0d0b6feabb>
+  PackagePath: ""
+  objects:
+    - !<own> a259d2ea-5b85-4b1d-ae0e-224d28cdaeb0
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/b160603d-3f6b-404b-b2b3-7b317a6f1b2a>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d2abce50-556e-4c40-9b08-808dfd617010
+  Mesh: !<reference> 2f7b803c-95a2-4f3e-929a-3f7fac91f19f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/c76697c5-480f-4283-9a11-d08b714c5f18>
+  SourceRemaps:
+    - 2165f8e8-c9b4-4a77-93b8-347ebb1c77e1: f8b18729-a556-4e55-9e06-94d4f3266697
+    - 44ffa9f8-db6e-49b7-99c5-a145aed045a4: e63a9bfb-95f9-48e3-840c-4eb8b96683b0
+    - 86c731a4-96cb-43f1-b159-b22ea63b9fae: 031669d8-d3db-444d-b72e-77c8702466a8
+    - 8a5a09c2-0820-446d-b7a1-52386a19e9ec: 7a16eb50-1414-4043-ac1a-bd27cbe98872
+    - b1e5b253-dbcb-4128-8fc7-88f730512883: 92b79761-a89d-4d8e-967b-3427f6567ed1
+    - b482de6c-853a-4467-9c9a-308cf1a164ca: b160603d-3f6b-404b-b2b3-7b317a6f1b2a
+    - cb84fde7-41f5-479c-a487-d944894eee69: 3763c018-1363-41de-868a-35fb83ca7d56
+    - d243376d-8ac5-4660-b342-977a66a7807e: a259d2ea-5b85-4b1d-ae0e-224d28cdaeb0
+    - f4c24b4f-ea9c-4c61-b3b6-50971dd8530f: 9d66292e-c140-4a9f-ad60-42643f147adf
+    - fe78582e-f09d-44e5-97e7-e6419d9cc9cd: ad5aa048-7c82-4254-94e4-bd0d0b6feabb
+  SourceState: !<own> ad5aa048-7c82-4254-94e4-bd0d0b6feabb
+- !<SceneObject/e63a9bfb-95f9-48e3-840c-4eb8b96683b0>
+  PrefabRemaps:
+    []
+  Name: cherry_cupcake
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -0.000000, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 14.557280, y: 14.557280, z: 14.557280}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b160603d-3f6b-404b-b2b3-7b317a6f1b2a
+    - !<own> 031669d8-d3db-444d-b72e-77c8702466a8
+    - !<own> 3763c018-1363-41de-868a-35fb83ca7d56
+    - !<own> 9d66292e-c140-4a9f-ad60-42643f147adf
+- !<RenderMeshVisual/f8b18729-a556-4e55-9e06-94d4f3266697>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> ed56c082-a27d-4e22-a462-36f16a094b4b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

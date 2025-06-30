@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/c594372e-6a4c-4983-8132-91da1fdf5de2>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 05be6227-7e74-4932-8672-46980e2e808b
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 05be6227-7e74-4932-8672-46980e2e808b
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 3V2yK8YNC0kZx6ql8tm8t7
+  AssetDataMap:
+    ObjectPrefab: !<own> 0baa7a76-6835-429f-bcb1-2d0cb1bf8c05
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/0baa7a76-6835-429f-bcb1-2d0cb1bf8c05>
+  SourceRemaps:
+    - 0036b69d-c588-4412-8494-f75fa4855226: f0f003ff-0017-4c66-84ee-339837c9ee72
+    - 05be6227-7e74-4932-8672-46980e2e808b: da483341-fc20-4292-abd3-df0ca9a37fa4
+    - 7ab01e9e-c4b5-41fa-870c-abec0cc31f2f: 42d1a068-2224-45c7-b05b-f81449642541
+  SourceState: !<own> da483341-fc20-4292-abd3-df0ca9a37fa4
+- !<VFXComponent/42d1a068-2224-45c7-b05b-f81449642541>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 06fe21b4-abf1-4a40-a054-14b608e66b8a
+- !<ObjectPrefab/da483341-fc20-4292-abd3-df0ca9a37fa4>
+  PackagePath: SparklesVFX__PLACE_IN_OBJECTS_PANEL
+  objects:
+    - !<own> f0f003ff-0017-4c66-84ee-339837c9ee72
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/f0f003ff-0017-4c66-84ee-339837c9ee72>
+  PrefabRemaps:
+    []
+  Name: SparklesVFX__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 42d1a068-2224-45c7-b05b-f81449642541

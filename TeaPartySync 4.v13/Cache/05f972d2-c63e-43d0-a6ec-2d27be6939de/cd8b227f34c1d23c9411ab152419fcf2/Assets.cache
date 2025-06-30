@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d384351f-67e7-4785-9697-5305db16bc08: 05f972d2-c63e-43d0-a6ec-2d27be6939de/cd8b227f34c1d23c9411ab152419fcf2/Data/macaron_pink.001.mesh
+  Assets:
+    - !<FileMesh/d384351f-67e7-4785-9697-5305db16bc08>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 428
+        Vertices: 548
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.060675, y: 0.060583, z: 0.038039}
+  SourceHash: cd8b227f34c1d23c9411ab152419fcf2
+  FileHash: ce02db5cc33493948b0ee31f4a0fb0f0
+  NativePackageItems:
+    []

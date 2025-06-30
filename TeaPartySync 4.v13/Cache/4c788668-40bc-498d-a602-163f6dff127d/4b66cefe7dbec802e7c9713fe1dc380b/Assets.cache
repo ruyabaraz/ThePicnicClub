@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    360e2193-2d73-495d-be19-44820224ce7d: 4c788668-40bc-498d-a602-163f6dff127d/4b66cefe7dbec802e7c9713fe1dc380b/Data/macaron_blue.002.mesh
+  Assets:
+    - !<FileMesh/360e2193-2d73-495d-be19-44820224ce7d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 428
+        Vertices: 549
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.060408, y: 0.061014, z: 0.037756}
+  SourceHash: 4b66cefe7dbec802e7c9713fe1dc380b
+  FileHash: d9fb52d0dd5dfa0a3de105096bd62ab2
+  NativePackageItems:
+    []

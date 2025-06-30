@@ -1,0 +1,288 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Data From Script [DO NOT EDIT]",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "oceanMin",
+                    	"label":       "Ocean Mesh Min",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "oceanMax",
+                    	"label":       "Ocean Mesh Max",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "speed",
+                    	"label":       "Ocean Speed",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label": "Color",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "enableFoam",
+                        	"label":       "Enable Foam",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "fbmScale",
+                        	"label":       "FBM Scale",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorTrough",
+                        	"label":       "Trough",
+                        	"widget":      "color",
+                        	"sortIndex":   "100",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorMiddle",
+                        	"label":       "Middle",
+                        	"widget":      "color",
+                        	"sortIndex":   "100",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "colorCrest",
+                        	"label":       "Crest",
+                        	"widget":      "color",
+                        	"sortIndex":   "100",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Fluid 2D",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "enableInfinite",
+                        	"label":       "Enable Infinite",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "1",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "enableFluid",
+                        	"label":       "Enable Fluid 2D",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "1",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "fluidMul",
+                        	"label":       "Fluid Intensity",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        { 
+                        	"bindingName": "fluidPressure", 
+                        	"label":       "Fluid Pressure", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "3",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "pressureRange",
+                        	"label":       "Pressure Range",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "807",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Reflection",
+                    	"widget": "group_start"
+                    },                        
+                        { 
+                        	"bindingName": "screenTex", 
+                        	"label":       "Screen Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        },
+                        
+                        { 
+                        	"bindingName": "distortionTex", 
+                        	"label":       "Distortion Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "100",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "distortionScale",
+                        	"label":       "Distortion Scale",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "100",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "distortionIntensity",
+                        	"label":       "Distortion Intensity",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "100",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Wave",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "unpackVal",
+                        	"label":       "unpackVal",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        { 
+                        	"bindingName": "oceanHeightmap", 
+                        	"label":       "Heightmap", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "2",
+                        	"hint":        ""
+                        },
+                        
+                        { 
+                        	"bindingName": "oceanNormal", 
+                        	"label":       "Normal Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "3",
+                        	"hint":        ""
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Body Intersection",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "bodyIntersection",
+                        	"label":       "Enable Body Intersection",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "1",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        { 
+                        	"bindingName": "bodyDepthTex", 
+                        	"label":       "Body Depth Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

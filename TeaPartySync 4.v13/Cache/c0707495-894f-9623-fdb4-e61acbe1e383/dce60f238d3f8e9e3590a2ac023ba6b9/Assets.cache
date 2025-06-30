@@ -1,0 +1,304 @@
+- !<AssetCache>
+  AssetFiles:
+    437b6b3e-3da3-4267-b90c-8ef15f0f3388: c0707495-894f-9623-fdb4-e61acbe1e383/dce60f238d3f8e9e3590a2ac023ba6b9/Data/Fluid Advect.ss_graph
+  Assets:
+    - !<ShaderGraphPass/437b6b3e-3da3-4267-b90c-8ef15f0f3388>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sVelocity
+            mType: Property
+            mName: sVelocity
+            mWidget: texture_group
+            mHint: "Property: sVelocity"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sTarget
+            mType: Property
+            mName: sTarget
+            mWidget: texture_group
+            mHint: "Property: sTarget"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sBoundary
+            mType: Property
+            mName: sBoundary
+            mWidget: texture_group
+            mHint: "Property: sBoundary"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sColor
+            mType: Property
+            mName: sColor
+            mWidget: texture_group
+            mHint: "Property: sColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: velocityRange
+            mType: Property
+            mName: velocityRange
+            mWidget: spinbox
+            mHint: "Property: velocityRange"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: impulseRange
+            mType: Property
+            mName: impulseRange
+            mWidget: spinbox
+            mHint: "Property: impulseRange"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: diffusionRate
+            mType: Property
+            mName: diffusionRate
+            mWidget: spinbox
+            mHint: "Property: diffusionRate"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: timeMult
+            mType: Property
+            mName: timeMult
+            mWidget: spinbox
+            mHint: "Property: timeMult"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: wrapMode
+            mType: Property
+            mName: wrapMode
+            mWidget: spinbox
+            mHint: "Property: wrapMode"
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: reset
+            mType: Property
+            mName: reset
+            mWidget: spinbox
+            mHint: "Property: reset"
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: impulseMult
+            mType: Property
+            mName: impulseMult
+            mWidget: spinbox
+            mHint: "Property: impulseMult"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: useVelocityInputTexture
+            mType: Property
+            mName: useVelocityInputTexture
+            mWidget: checkbox
+            mHint: "Property: useVelocityInputTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: useVelocityComponentInput
+            mType: Property
+            mName: useVelocityComponentInput
+            mWidget: checkbox
+            mHint: "Property: useVelocityComponentInput"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: userVelocityInputTex
+            mType: Property
+            mName: userVelocityInputTex
+            mWidget: texture_group
+            mHint: "Property: userVelocityInputTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sImpulseTexture
+            mType: Property
+            mName: sImpulseTexture
+            mWidget: texture_group
+            mHint: "Property: sImpulseTexture"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: buoyancyEnable
+            mType: Property
+            mName: buoyancyEnable
+            mWidget: checkbox
+            mHint: "Property: buoyancyEnable"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ambientTemperature
+            mType: Property
+            mName: ambientTemperature
+            mWidget: spinbox
+            mHint: "Property: ambientTemperature"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: buoyancy
+            mType: Property
+            mName: buoyancy
+            mWidget: spinbox
+            mHint: "Property: buoyancy"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: weight
+            mType: Property
+            mName: weight
+            mWidget: spinbox
+            mHint: "Property: weight"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: c0707495-894f-9623-fdb4-e61acbe1e383/dce60f238d3f8e9e3590a2ac023ba6b9/Data/cd070e4/Fluid Advect.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: dce60f238d3f8e9e3590a2ac023ba6b9
+  FileHash: c5a6deeb4edf1054ee467d92ebadea9b
+  NativePackageItems:
+    []

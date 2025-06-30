@@ -1,0 +1,100 @@
+- !<AssetImportMetadata/2180aea7-2f0c-46b1-a2d6-5f03b3001c11>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> cff60cf5-0daa-4335-bb4b-8b3cf689484f
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> cff60cf5-0daa-4335-bb4b-8b3cf689484f
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> dda0c46a-3742-42f0-a8d1-109d57df3c7b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/353964b3-ce3d-4c49-9c0a-623d465c3476>
+  PrefabRemaps:
+    []
+  Name: cup
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.025666, z: 0.000315}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6bf8a9a3-537b-44fb-8456-08e5c9ab389a
+- !<SceneObject/3fbe37ed-e654-44f5-ba19-c35ffdeb0da3>
+  PrefabRemaps:
+    []
+  Name: bardakAlt1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -70.472229, y: 4.799667, z: 59.870255}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 353964b3-ce3d-4c49-9c0a-623d465c3476
+  Components:
+    - !<own> 81725450-6329-47fd-9617-fb177f8e1f76
+- !<RenderMeshVisual/6bf8a9a3-537b-44fb-8456-08e5c9ab389a>
+  PrefabRemaps:
+    []
+  Name: Mesh.002
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 459955e0-ff2d-4fa8-b887-aea4433d68a2
+  Mesh: !<reference> aa927e78-e662-4cc8-a5ec-531263ad9405
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/70e6661b-f4d9-49ef-b627-445651fdddaa>
+  PackagePath: ""
+  objects:
+    - !<own> 3fbe37ed-e654-44f5-ba19-c35ffdeb0da3
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/81725450-6329-47fd-9617-fb177f8e1f76>
+  PrefabRemaps:
+    []
+  Name: Mesh.003
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: Caster
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 459955e0-ff2d-4fa8-b887-aea4433d68a2
+  Mesh: !<reference> 23f83d80-9716-4cac-94f1-e4c8a515c452
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/dda0c46a-3742-42f0-a8d1-109d57df3c7b>
+  SourceRemaps:
+    - 0d3f1593-0455-49f9-9480-253821be456d: 6bf8a9a3-537b-44fb-8456-08e5c9ab389a
+    - 56167352-dc60-4230-9e01-6409e552526a: 81725450-6329-47fd-9617-fb177f8e1f76
+    - abf733e4-7da9-4572-bd3c-f67453b5f5d1: 3fbe37ed-e654-44f5-ba19-c35ffdeb0da3
+    - cff60cf5-0daa-4335-bb4b-8b3cf689484f: 70e6661b-f4d9-49ef-b627-445651fdddaa
+    - eeb40e66-1200-4497-80ef-a2b3961ca1eb: 353964b3-ce3d-4c49-9c0a-623d465c3476
+  SourceState: !<own> 70e6661b-f4d9-49ef-b627-445651fdddaa

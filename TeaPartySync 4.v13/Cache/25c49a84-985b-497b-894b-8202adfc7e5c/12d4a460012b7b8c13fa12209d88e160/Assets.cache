@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    983b6afd-5570-4d30-80f6-b645b7574e5d: 25c49a84-985b-497b-894b-8202adfc7e5c/12d4a460012b7b8c13fa12209d88e160/Data/straw.mesh
+  Assets:
+    - !<FileMesh/983b6afd-5570-4d30-80f6-b645b7574e5d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 280
+        Vertices: 168
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.104221, y: 0.038897, z: 0.210347}
+  SourceHash: 12d4a460012b7b8c13fa12209d88e160
+  FileHash: ffe9ca322b0b8915802d57154a2a4dfc
+  NativePackageItems:
+    []

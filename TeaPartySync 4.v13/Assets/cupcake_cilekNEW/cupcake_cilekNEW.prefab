@@ -1,0 +1,200 @@
+- !<ObjectPrefab/6b9144cb-eafe-44c8-b57f-eef7f36bc74c>
+  PackagePath: ""
+  objects:
+    - !<own> 6b77281e-fec1-4f9a-8bb8-d7b4704a652d
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/066f168f-4ed8-42ed-99ce-dca59e619fef>
+  PrefabRemaps:
+    []
+  Name: Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 582eefea-786b-481c-ac13-354e30def73c
+  Components:
+    - !<own> 729a541a-763e-4b12-89f2-d8468ceab469
+- !<RenderMeshVisual/564cb44f-bdb4-46d8-a650-280e4f8570d4>
+  PrefabRemaps:
+    []
+  Name: Star.010
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fdad84aa-a795-4351-bd7e-d49a4af9136b
+  Mesh: !<reference> 9e486e39-5479-4125-a6a1-9cba199c3e03
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/582eefea-786b-481c-ac13-354e30def73c>
+  PrefabRemaps:
+    []
+  Name: cilek_cupcake
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.402823, y: 0.059322, z: -0.292627}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 63a83d27-125e-4a5b-9bfd-6d6a20970ffe
+    - !<own> 7ede2e6a-27c6-46db-a020-93625c1beccb
+    - !<own> 7386f88f-fc65-45d1-a908-5d2812850999
+    - !<own> 564cb44f-bdb4-46d8-a650-280e4f8570d4
+    - !<own> dce6ae37-1aa5-4e3d-8011-4cc66f52dc02
+    - !<own> 8acf20bb-511e-409f-b24c-1024a227e60d
+- !<SceneObject/5e7fb9d1-5a86-4b0b-a942-f2e735e2e19b>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 066f168f-4ed8-42ed-99ce-dca59e619fef
+  Components:
+    []
+- !<RenderMeshVisual/63a83d27-125e-4a5b-9bfd-6d6a20970ffe>
+  PrefabRemaps:
+    []
+  Name: Star.010
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 64634007-cbf0-48e9-ae88-0f51739bddd7
+  Mesh: !<reference> 50fc6d69-a0c1-4625-ae39-c79b5a3bdd4b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6b77281e-fec1-4f9a-8bb8-d7b4704a652d>
+  PrefabRemaps:
+    []
+  Name: cupcake_cilekNEW
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5e7fb9d1-5a86-4b0b-a942-f2e735e2e19b
+  Components:
+    []
+- !<AnimationPlayer/729a541a-763e-4b12-89f2-d8468ceab469>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<RenderMeshVisual/7386f88f-fc65-45d1-a908-5d2812850999>
+  PrefabRemaps:
+    []
+  Name: Star.010
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f2e77df5-db90-4f4c-8d5a-8db9bbbf7584
+  Mesh: !<reference> 4fc03279-3e7e-4060-a97a-257b8bddd469
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/7ede2e6a-27c6-46db-a020-93625c1beccb>
+  PrefabRemaps:
+    []
+  Name: Star.010
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 25c981d8-8ec9-4864-ba6c-4eb44d16ad41
+  Mesh: !<reference> 62ef32d8-8d3e-4a87-9687-473d2393cb10
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8acf20bb-511e-409f-b24c-1024a227e60d>
+  PrefabRemaps:
+    []
+  Name: Star.010
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f9edb30c-e095-46e9-b6df-968d1e26279b
+  Mesh: !<reference> 1816d18b-523f-41bd-b47e-b2fd4e017818
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/dce6ae37-1aa5-4e3d-8011-4cc66f52dc02>
+  PrefabRemaps:
+    []
+  Name: Star.010
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f5b69f7e-0fca-4335-a682-fd9805d25b29
+  Mesh: !<reference> 2c8ee673-e001-4da5-bb94-a7c595b2e215
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

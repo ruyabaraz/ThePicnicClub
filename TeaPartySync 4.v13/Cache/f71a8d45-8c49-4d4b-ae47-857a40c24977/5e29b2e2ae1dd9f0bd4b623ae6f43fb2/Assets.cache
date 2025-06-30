@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0eb758f7-cf3e-4cc4-97df-7d83fe204018: f71a8d45-8c49-4d4b-ae47-857a40c24977/5e29b2e2ae1dd9f0bd4b623ae6f43fb2/Data/strawberry_cupcake_cilek_kirmizi_normal.png
+  Assets:
+    - !<FileTexture/0eb758f7-cf3e-4cc4-97df-7d83fe204018>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 5e29b2e2ae1dd9f0bd4b623ae6f43fb2
+  FileHash: 7ac5290163d8dd22cf6bcb1575b0151d
+  NativePackageItems:
+    []

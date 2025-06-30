@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8a867772-ebd7-42f6-aa0e-34bb34b5e969: c0cdf02d-2112-7207-57a1-04d8eee6b399/2491df2c772932227918906029ab1953/Data/ScrollBarRectangle.png
+  Assets:
+    - !<FileTexture/8a867772-ebd7-42f6-aa0e-34bb34b5e969>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 26
+        Height: 2048
+  SourceHash: 2491df2c772932227918906029ab1953
+  FileHash: 0a2f8e4b6e344288663cd9a7e570a42e
+  NativePackageItems:
+    []

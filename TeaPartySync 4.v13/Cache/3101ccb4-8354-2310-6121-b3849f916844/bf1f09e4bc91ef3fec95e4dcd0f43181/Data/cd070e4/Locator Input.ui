@@ -1,0 +1,201 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "isMouseDown",
+                	"label":       "isMouseDown",
+                	"widget":      "spinbox",
+                	"step":        1,
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "screenTex", 
+                	"label":       "Screen Tex", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "impulseRange",
+                	"label":       "impulseRange",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "fluidGeoMat",
+                	"label":       "fluidGeoMat",
+                	"widget":      "matrix",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "fluidGeoMatInv",
+                	"label":       "fluidGeoMatInv",
+                	"widget":      "matrix",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "locatorPos",
+                	"label":       "locatorPos",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "locatorPosPrev",
+                	"label":       "locatorPosPrev",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "touchPosition",
+                	"label":       "touchPosition",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "touchPositionPrev",
+                	"label":       "touchPositionPrev",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "touchRadius",
+                	"label":       "touchRadius",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "speedToRadius",
+                	"label":       "speedToRadius",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "speedScale",
+                	"label":       "speedScale",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "softness",
+                	"label":       "softness",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "velocityMult",
+                	"label":       "Velocity mult",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "outputType",
+                	"label":       "outputType",
+                	"widget":      "spinbox",
+                	"step":        1,
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "aspectRatio",
+                	"label":       "aspectRatio",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "1",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "fluidGeoBboxDim",
+                	"label":       "fluidGeoBboxDim",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "1",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "timeMult",
+                	"label":       "timeMult",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "1",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

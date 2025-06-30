@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e2a55de3-a6f6-45ee-964e-2c9b80f88b39: 418e479f-a801-4a99-8a5c-37d5a659f0a8/51b0b0bc15c33277cbe43a6d18baf166/Data/teapot.mesh
+  Assets:
+    - !<FileMesh/e2a55de3-a6f6-45ee-964e-2c9b80f88b39>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 6672
+        Vertices: 4419
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.192638, y: 0.215013, z: 0.162308}
+  SourceHash: 51b0b0bc15c33277cbe43a6d18baf166
+  FileHash: cebd88798ec3c954b461372ddcaac96b
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    5810ff50-fa67-46e3-8161-24ff2f482c5e: a5851ca6-afae-45a6-8ffa-a3de41be7741/2f780c7bc2f476f1731af5715720669b/Data/cream.mesh
+  Assets:
+    - !<FileMesh/5810ff50-fa67-46e3-8161-24ff2f482c5e>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 7813
+        Vertices: 3979
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 7.818665, y: 8.045055, z: 3.704667}
+  SourceHash: 2f780c7bc2f476f1731af5715720669b
+  FileHash: 37f653728e964ee10298b1cf2130f7c0
+  NativePackageItems:
+    []

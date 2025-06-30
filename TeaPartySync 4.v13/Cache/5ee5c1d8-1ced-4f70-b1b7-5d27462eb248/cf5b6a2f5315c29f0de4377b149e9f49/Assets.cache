@@ -1,0 +1,42 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: cf5b6a2f5315c29f0de4377b149e9f49
+  FileHash: d0e8eec0792ceb8bc1c0f8a9f02db752
+  NativePackageItems:
+    - !<own> fbca559e-d960-4442-1901-eacee8a88586
+    - !<own> 799605a9-8fc3-e2b9-ac79-798e4911902b
+- !<AssetImportMetadata/799605a9-8fc3-e2b9-ac79-798e4911902b>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 0980fdad-3bc4-49b7-9ff2-71ec9085b806
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 0980fdad-3bc4-49b7-9ff2-71ec9085b806
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/fbca559e-d960-4442-1901-eacee8a88586>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 11ee2b9e-22c2-4138-a11d-abce6d544287
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 11ee2b9e-22c2-4138-a11d-abce6d544287
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

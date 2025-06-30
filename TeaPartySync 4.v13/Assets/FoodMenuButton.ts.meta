@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/621ca5f9-da8e-4877-9d0c-a6d732124539>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2f88e806-9d97-4bef-b380-aea35fbb382c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2f88e806-9d97-4bef-b380-aea35fbb382c
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ff64bbfa-3a7d-4b1d-a968-7a6142f91708
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ff64bbfa-3a7d-4b1d-a968-7a6142f91708>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6b3a6e44-fe71-45ad-b5fa-e2800dc80158
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    foodName: false
+    syncController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - syncController: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      foodName: ""
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType syncController
+    - // @input string foodName

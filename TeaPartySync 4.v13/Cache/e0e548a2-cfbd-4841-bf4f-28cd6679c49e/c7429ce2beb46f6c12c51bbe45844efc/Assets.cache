@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    616d047b-4a34-4f68-b166-179816acd5cb: e0e548a2-cfbd-4841-bf4f-28cd6679c49e/c7429ce2beb46f6c12c51bbe45844efc/Data/kiraz_cupcake_kiraz.001_base.png
+  Assets:
+    - !<FileTexture/616d047b-4a34-4f68-b166-179816acd5cb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1
+        Height: 1
+  SourceHash: c7429ce2beb46f6c12c51bbe45844efc
+  FileHash: bdc87a4901d236ae7f5c0d84a085ebe9
+  NativePackageItems:
+    []

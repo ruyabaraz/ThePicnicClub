@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/84edaffb-13c3-4a54-afb7-f0f2ee2e9203>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0fb90aa6-44ab-4823-a7da-3169296dbceb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0fb90aa6-44ab-4823-a7da-3169296dbceb
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3ddbce5c-2b51-4426-94b0-675ec2ff4bb6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3ddbce5c-2b51-4426-94b0-675ec2ff4bb6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e4385d55-ec32-43d4-a68c-2511d0682e36
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    objectToHide: false
+    waiterPrefab: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - waiterPrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectToHide: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject waiterPrefab
+    - // @input SceneObject objectToHide

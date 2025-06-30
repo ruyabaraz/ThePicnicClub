@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    1143fb61-87e2-4070-823e-c88edf6891bd: 8774bfd1-179e-4524-949f-345beb36198e/c3fa7144d663d34d26eda24db67901e8/Data/cake_params.jpg
+  Assets:
+    - !<FileTexture/1143fb61-87e2-4070-823e-c88edf6891bd>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: c3fa7144d663d34d26eda24db67901e8
+  FileHash: d79a9e638d816028a78efb13a0fa3501
+  NativePackageItems:
+    []

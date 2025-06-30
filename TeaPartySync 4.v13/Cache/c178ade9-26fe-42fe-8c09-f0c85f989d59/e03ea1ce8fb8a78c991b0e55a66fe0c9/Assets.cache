@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    47f8d3c7-2d11-4372-9f20-be5b8c2571d6: c178ade9-26fe-42fe-8c09-f0c85f989d59/e03ea1ce8fb8a78c991b0e55a66fe0c9/Data/lemonade.mesh
+  Assets:
+    - !<FileMesh/47f8d3c7-2d11-4372-9f20-be5b8c2571d6>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 512
+        Vertices: 304
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.147368, y: 0.147368, z: 0.211021}
+  SourceHash: e03ea1ce8fb8a78c991b0e55a66fe0c9
+  FileHash: 649c9d786b3c4f957c197182abe4914d
+  NativePackageItems:
+    []

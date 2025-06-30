@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    f6ac790a-b26a-4243-8f6a-70abd5208568: e3fee2f8-8986-4fbf-9639-c984d59ea4c7/dbdfd9f0463931aa849e5bb88257b5f8/Data/pouringTea.mp3
+  Assets:
+    - !<FileAudioTrack/f6ac790a-b26a-4243-8f6a-70abd5208568>
+      PackagePath: ""
+  SourceHash: dbdfd9f0463931aa849e5bb88257b5f8
+  FileHash: e839a84e63db0701e145bbfe62af4a09
+  NativePackageItems:
+    []

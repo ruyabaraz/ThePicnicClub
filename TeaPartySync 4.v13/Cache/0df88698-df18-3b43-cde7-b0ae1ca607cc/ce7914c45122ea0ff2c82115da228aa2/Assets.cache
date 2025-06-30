@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    154320e4-60e6-42de-9c0a-1f1712decd4f: 0df88698-df18-3b43-cde7-b0ae1ca607cc/ce7914c45122ea0ff2c82115da228aa2/Data/TriggerEndAudioTrack.wav
+  Assets:
+    - !<FileAudioTrack/154320e4-60e6-42de-9c0a-1f1712decd4f>
+      PackagePath: ""
+  SourceHash: ce7914c45122ea0ff2c82115da228aa2
+  FileHash: f6704b1335f19a8aeb3c7c1d05b68ce9
+  NativePackageItems:
+    []

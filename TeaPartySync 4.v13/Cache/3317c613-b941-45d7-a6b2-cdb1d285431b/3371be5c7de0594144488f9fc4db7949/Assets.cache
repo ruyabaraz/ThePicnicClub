@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    01fa9885-84d7-4067-ac9d-c98eab7ba713: 3317c613-b941-45d7-a6b2-cdb1d285431b/3371be5c7de0594144488f9fc4db7949/Data/Roundcube3.008.mesh
+  Assets:
+    - !<FileMesh/01fa9885-84d7-4067-ac9d-c98eab7ba713>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 150
+        Vertices: 300
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.084310, y: 0.050610, z: 0.084277}
+  SourceHash: 3371be5c7de0594144488f9fc4db7949
+  FileHash: 068d9f46ef7662d07fc26ff88295383f
+  NativePackageItems:
+    []

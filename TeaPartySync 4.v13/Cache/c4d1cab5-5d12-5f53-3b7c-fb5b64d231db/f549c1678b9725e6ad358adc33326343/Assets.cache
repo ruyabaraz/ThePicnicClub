@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1397e08e-e74c-42a0-a3b1-e7b361d6732a: c4d1cab5-5d12-5f53-3b7c-fb5b64d231db/f549c1678b9725e6ad358adc33326343/Data/ortu.mesh
+  Assets:
+    - !<FileMesh/1397e08e-e74c-42a0-a3b1-e7b361d6732a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12800
+        Vertices: 6832
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.055318, y: 2.014163, z: 0.044952}
+  SourceHash: f549c1678b9725e6ad358adc33326343
+  FileHash: 3d5f66e905f02d41760d286aaa9486ea
+  NativePackageItems:
+    []

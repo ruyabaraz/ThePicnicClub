@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8261737d-b1af-428e-ab91-16bba10424e8: cd6b3ffc-718f-4ea9-a207-e86f6ddfad06/ec78e6c491c35ad47f71b73a982c3998/Data/glitter_short_3.mp3
+  Assets:
+    - !<FileAudioTrack/8261737d-b1af-428e-ab91-16bba10424e8>
+      PackagePath: ""
+  SourceHash: ec78e6c491c35ad47f71b73a982c3998
+  FileHash: ef402782aaf86a91d6b12b7fa3e47b3c
+  NativePackageItems:
+    []

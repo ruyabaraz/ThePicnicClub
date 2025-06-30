@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c1d31d9e-bd6d-4dd4-bbd1-33284ffb5082: d8bfeea8-0c21-675b-88f7-296a54348bd0/64e09bd47defc892a69a562c64733e28/Data/mask_fingertip_colored.png
+  Assets:
+    - !<FileTexture/c1d31d9e-bd6d-4dd4-bbd1-33284ffb5082>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 64e09bd47defc892a69a562c64733e28
+  FileHash: 89773e1757897feccbb95cd1e6132d60
+  NativePackageItems:
+    []

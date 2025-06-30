@@ -1,0 +1,48 @@
+- !<AssetImportMetadata/2061f465-08b2-4878-9e23-5ac018f44697>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 8b6ecfe8-749a-4dcc-854f-1f0a20c336fa
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 8b6ecfe8-749a-4dcc-854f-1f0a20c336fa
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4753d1d5-602e-44ad-ad5c-4f26be64b667
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4753d1d5-602e-44ad-ad5c-4f26be64b667>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5dd2cd19-fbcb-427b-ae92-207b20674055
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    activityRenderMesh: false
+    aiItemSyncController: false
+    button: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - button: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      activityRenderMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
+      aiItemSyncController: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType button
+    - // @input Component.RenderMeshVisual activityRenderMesh
+    - // @input AssignableType_1 aiItemSyncController

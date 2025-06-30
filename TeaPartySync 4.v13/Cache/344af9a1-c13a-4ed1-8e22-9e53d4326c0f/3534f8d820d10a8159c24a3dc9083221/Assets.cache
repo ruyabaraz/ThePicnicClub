@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b56c6d58-f33a-4dd3-86d0-decee0648486: 344af9a1-c13a-4ed1-8e22-9e53d4326c0f/3534f8d820d10a8159c24a3dc9083221/Data/Salt-Shaker-Sound.mp3
+  Assets:
+    - !<FileAudioTrack/b56c6d58-f33a-4dd3-86d0-decee0648486>
+      PackagePath: ""
+  SourceHash: 3534f8d820d10a8159c24a3dc9083221
+  FileHash: 8fa46f74c8063a2423d0760241df102f
+  NativePackageItems:
+    []

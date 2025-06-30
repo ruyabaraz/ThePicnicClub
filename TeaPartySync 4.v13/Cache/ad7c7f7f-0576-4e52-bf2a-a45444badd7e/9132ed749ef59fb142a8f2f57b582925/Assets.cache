@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6b4d5c26-4c41-4ab4-a58a-ffcd65b8e990: ad7c7f7f-0576-4e52-bf2a-a45444badd7e/9132ed749ef59fb142a8f2f57b582925/Data/Dapper_Waiter_0624135955_texture3.png
+  Assets:
+    - !<FileTexture/6b4d5c26-4c41-4ab4-a58a-ffcd65b8e990>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 9132ed749ef59fb142a8f2f57b582925
+  FileHash: e9edb2cfa09bc43ca5d849433715b31e
+  NativePackageItems:
+    []

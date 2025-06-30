@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a1485cc6-c166-4bf6-8df9-488c5d4b4ea5: 7f55f9f8-f881-4af2-9cae-4c20427f9ef4/7ef1d0afb54b83249e8258381f5be7f6/Data/ele.png
+  Assets:
+    - !<FileTexture/a1485cc6-c166-4bf6-8df9-488c5d4b4ea5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7ef1d0afb54b83249e8258381f5be7f6
+  FileHash: 4a69b73bbef46016794c3428a6b4ddbd
+  NativePackageItems:
+    []

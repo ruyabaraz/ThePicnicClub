@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    641c162d-371d-45a7-b089-a6ab7c69a777: 7d38fe77-5b25-4be0-a91b-6d94c1b55280/46f6e3fb9cbbf43e890042e3acd584bc/Data/kiraz_cupcake_cupcake_CAKE2_base.png
+  Assets:
+    - !<FileTexture/641c162d-371d-45a7-b089-a6ab7c69a777>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 46f6e3fb9cbbf43e890042e3acd584bc
+  FileHash: e9621abdc5ca093635df2f7d88a788b5
+  NativePackageItems:
+    []

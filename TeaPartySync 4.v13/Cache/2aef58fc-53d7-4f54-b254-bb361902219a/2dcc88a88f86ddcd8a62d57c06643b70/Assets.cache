@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    14b288e2-8b25-4b50-ab72-d20f7865e0bf: 2aef58fc-53d7-4f54-b254-bb361902219a/2dcc88a88f86ddcd8a62d57c06643b70/Data/strawberry_cupcake_cupcake_cake_normal.png
+  Assets:
+    - !<FileTexture/14b288e2-8b25-4b50-ab72-d20f7865e0bf>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 2dcc88a88f86ddcd8a62d57c06643b70
+  FileHash: b0f29cc849939a571eb6f13d0c60a2df
+  NativePackageItems:
+    []

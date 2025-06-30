@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    11f50670-df56-4d0c-ad8c-35a2ef6a82b1: 2430c51d-b618-4feb-329d-049965f18ef8/3231e354085c759a34320c68a89044ce/Data/LoadingSpinner.mesh
+  Assets:
+    - !<FileMesh/11f50670-df56-4d0c-ad8c-35a2ef6a82b1>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 288
+        Vertices: 288
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.000000, y: 1.000000, z: 0.000000}
+  SourceHash: 3231e354085c759a34320c68a89044ce
+  FileHash: 69c0d2ad0f0bac846b834c3ebfc6ae16
+  NativePackageItems:
+    []

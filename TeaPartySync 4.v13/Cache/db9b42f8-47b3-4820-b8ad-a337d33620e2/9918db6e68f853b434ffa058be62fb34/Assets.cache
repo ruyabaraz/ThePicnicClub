@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    348f2476-643f-493c-bc44-fb0990ce09a6: db9b42f8-47b3-4820-b8ad-a337d33620e2/9918db6e68f853b434ffa058be62fb34/Data/speechbubble.png
+  Assets:
+    - !<FileTexture/348f2476-643f-493c-bc44-fb0990ce09a6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 999
+        Height: 584
+  SourceHash: 9918db6e68f853b434ffa058be62fb34
+  FileHash: 4856e056512a26f2318a0358089084a3
+  NativePackageItems:
+    []

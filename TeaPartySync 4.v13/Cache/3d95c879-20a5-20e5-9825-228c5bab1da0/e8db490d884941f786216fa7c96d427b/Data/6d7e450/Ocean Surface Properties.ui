@@ -1,0 +1,137 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Data From Script [DO NOT EDIT]",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "amplitude",
+                    	"label":       "Amplitude",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "choppiness",
+                    	"label":       "Choppiness",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.1",
+                    	"sortIndex":   "1",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "speed",
+                    	"label":       "Speed",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "1",
+                    	"sortIndex":   "2",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "offset",
+                    	"label":       "Offset",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "1",
+                    	"sortIndex":   "2",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "noiseSteps",
+                    	"label":       "Noise Steps",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         5,
+                    	"step":        "1",
+                    	"sortIndex":   "4",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "norSteps",
+                    	"label":       "Normal Steps",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         8,
+                    	"step":        "1",
+                    	"sortIndex":   "5",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label": "Fluid 2D",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "enableFluid",
+                        	"label":       "Enable Fluid 2D",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "1",
+                        	"sortIndex":   "7",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        { 
+                        	"bindingName": "fluidNormal", 
+                        	"label":       "Fluid Normal", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "10",
+                        	"hint":        ""
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "PostProcessing",
+	
+	"extraDefines":
+	[
+		
+	]
+}

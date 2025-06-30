@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    29b8ebe5-16c7-4853-a381-23b179642fa5: a84c68a1-c7b4-4899-b854-093e14df6b45/bf84f9893324075f4560510c0a5d3416/Data/bubbles.mesh
+  Assets:
+    - !<FileMesh/29b8ebe5-16c7-4853-a381-23b179642fa5>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1904
+        Vertices: 1734
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.107218, y: 0.094513, z: 0.175979}
+  SourceHash: bf84f9893324075f4560510c0a5d3416
+  FileHash: b170bb45c05887534b2aa8aaa3eb5c18
+  NativePackageItems:
+    []

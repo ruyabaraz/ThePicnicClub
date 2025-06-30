@@ -1,0 +1,447 @@
+- !<ObjectPrefab/c039b583-c507-4160-a4b1-bfb602ac657f>
+  PackagePath: ""
+  objects:
+    - !<own> c8ae3d53-b960-4406-93d9-523e7fe83548
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/144582a0-6e8d-491b-8a9f-d9b6bda297b7>
+  PrefabRemaps:
+    []
+  Name: macaron_haki.002
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.032705, y: -0.066637, z: 0.050752}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> aa45a78e-2eeb-4e95-9f91-56e4bccf2663
+    - !<own> a9d08b6d-00c6-4a75-abd5-a1df1bc47657
+- !<RenderMeshVisual/1f950b71-b81f-41b1-bb97-4668a2f33b9f>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a2576dc5-9e56-41fd-801e-979272170807
+  Mesh: !<reference> d384351f-67e7-4785-9697-5305db16bc08
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3886ba6f-7820-45d0-9d18-972f01d74264>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2dae492f-b131-422f-86e5-a697871e7063
+  Mesh: !<reference> 16ac12fb-630a-4261-8457-0d40015dd108
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3b2d4eb1-137d-4fa0-bbfc-ca65d8bca0ae>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> bfb7c287-f579-47e0-9f44-253d0416a9cf
+  Mesh: !<reference> 5d640b68-7ba8-430a-b344-fbab77de1786
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3f98ae5e-f9c4-4109-9c9f-d0c1b8fde77c>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 54d1b332-01a5-4dc1-9d96-47cacf2d71ee
+  Mesh: !<reference> cfe769f0-a0b5-49c1-9b00-0381884a626e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/44427fae-2f33-45c3-a91f-e85e5a2bbf98>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1a5ce506-24c6-48b6-a932-206b249508fa
+  Mesh: !<reference> 360e2193-2d73-495d-be19-44820224ce7d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/4ff005e9-dc5d-4809-8c23-eec6d43ce14a>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0f9cc833-67c9-4fbb-8841-c085cc3fdfc8
+  Mesh: !<reference> 0f3732e3-f960-4a06-a5da-563a1872a067
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/69ddead9-f302-405e-ac62-b54660169624>
+  PrefabRemaps:
+    []
+  Name: macaron_vanilla.002
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.069887, y: 0.000895, z: 0.050874}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3886ba6f-7820-45d0-9d18-972f01d74264
+    - !<own> 3b2d4eb1-137d-4fa0-bbfc-ca65d8bca0ae
+- !<RenderMeshVisual/6fc0f89a-e2ad-4954-8a9a-4a82e9fe0ae3>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06918b95-4599-45aa-b4da-a38f36a5d53d
+  Mesh: !<reference> ba6506c9-b349-4962-8336-f4ef404fefe4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/87461d3a-205c-4e44-bf16-a118bd6a6a83>
+  PrefabRemaps:
+    []
+  Name: macaron_chocolate.001
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.047298, y: 0.016305, z: 0.157822}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> edf608f2-e89a-4c49-9745-5144672473ec
+    - !<own> 9e11ab4a-e3e1-4b7d-9d46-a5d874ddee43
+- !<RenderMeshVisual/9e11ab4a-e3e1-4b7d-9d46-a5d874ddee43>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fb47fd25-4baa-4eb7-898c-5ef81da3e9f4
+  Mesh: !<reference> cea50bce-c845-48af-bc8e-aec1aab7b753
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9fc0325b-0572-4cc9-b0f0-79008b985b8f>
+  PrefabRemaps:
+    []
+  Name: macaron_pink.001
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.033837, y: 0.029990, z: 0.156072}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1f950b71-b81f-41b1-bb97-4668a2f33b9f
+    - !<own> 3f98ae5e-f9c4-4109-9c9f-d0c1b8fde77c
+- !<RenderMeshVisual/a9d08b6d-00c6-4a75-abd5-a1df1bc47657>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 84f51d93-a76d-4b26-be6f-dd8be316fb97
+  Mesh: !<reference> d340c230-55e6-4eab-a190-33a21fd6dbec
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/aa45a78e-2eeb-4e95-9f91-56e4bccf2663>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8517353f-f057-4f3c-aa43-574304f7a0f5
+  Mesh: !<reference> a2abc36d-8a6d-4582-a382-12350c748464
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c8ae3d53-b960-4406-93d9-523e7fe83548>
+  PrefabRemaps:
+    []
+  Name: macarons
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> f8208042-5d49-4802-809c-f45336b177fd
+  Components:
+    - !<own> edf55f02-cb8c-4e52-b8f0-a58d203833fe
+- !<SceneObject/cf31ddbf-e2e8-413e-896f-6a4478a542d8>
+  PrefabRemaps:
+    []
+  Name: macaron_blue.002
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -0.000722, y: -0.048036, z: 0.157511}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 44427fae-2f33-45c3-a91f-e85e5a2bbf98
+    - !<own> 6fc0f89a-e2ad-4954-8a9a-4a82e9fe0ae3
+- !<AnimationPlayer/edf55f02-cb8c-4e52-b8f0-a58d203833fe>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 68cbc90b-605d-488a-a8f2-a7af6a43b171
+      Name: cake_plates|CherryCubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 76.250008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 673cb9ed-770c-4441-af0f-c7e5cad57ac1
+      Name: cake_plates|CilekCubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 75.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 06d547a2-79e7-4516-8ef7-206e40c194c6
+      Name: cake_plates|croissant_plateAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 76.250008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 3c2b561a-a4dc-4b38-a83a-e9e6b92c35ee
+      Name: cake_plates|CroissantLAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 78.750000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> e10962b4-2167-499b-a976-3222a672326e
+      Name: cake_plates|CroissantRAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 81.249992
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 90fa2814-233f-4098-a539-8389a8b4740d
+      Name: cake_plates|kapakAction.001
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 98.750008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/edf608f2-e89a-4c49-9745-5144672473ec>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d8152e5f-dbfb-4476-9df0-adbdd53f4127
+  Mesh: !<reference> 87a6f5c2-eb56-48b2-b114-0c1f1a5c5437
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f8208042-5d49-4802-809c-f45336b177fd>
+  PrefabRemaps:
+    []
+  Name: cake_plates
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 59.640526, y: 10.075441, z: -62.940659}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 4.534741, y: 4.534741, z: 4.534741}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> cf31ddbf-e2e8-413e-896f-6a4478a542d8
+    - !<own> 87461d3a-205c-4e44-bf16-a118bd6a6a83
+    - !<own> 144582a0-6e8d-491b-8a9f-d9b6bda297b7
+    - !<own> 9fc0325b-0572-4cc9-b0f0-79008b985b8f
+    - !<own> 69ddead9-f302-405e-ac62-b54660169624
+  Components:
+    - !<own> 4ff005e9-dc5d-4809-8c23-eec6d43ce14a
+    - !<own> ffcd8083-2c76-469b-a020-24caf3664926
+- !<RenderMeshVisual/ffcd8083-2c76-469b-a020-24caf3664926>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e94eec2a-598b-4144-b4bd-27ba28d641ce
+  Mesh: !<reference> 58ac0348-7976-4960-aa75-52c7c71cb817
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

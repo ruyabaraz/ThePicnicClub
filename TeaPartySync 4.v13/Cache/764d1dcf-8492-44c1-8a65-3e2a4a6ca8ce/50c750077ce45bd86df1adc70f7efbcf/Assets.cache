@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    032fbcc5-08aa-4db0-a940-1cd09c541a91: 764d1dcf-8492-44c1-8a65-3e2a4a6ca8ce/50c750077ce45bd86df1adc70f7efbcf/Data/kiraz_cupcake_cupcake_cup.001_normal.png
+  Assets:
+    - !<FileTexture/032fbcc5-08aa-4db0-a940-1cd09c541a91>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 50c750077ce45bd86df1adc70f7efbcf
+  FileHash: 4ac09da021c6b5f52c3f709ad87f9856
+  NativePackageItems:
+    []

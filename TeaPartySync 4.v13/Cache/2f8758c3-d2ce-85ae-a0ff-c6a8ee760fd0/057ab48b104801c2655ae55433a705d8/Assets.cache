@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3809b831-9d43-4c09-8195-a95ba6807813: 2f8758c3-d2ce-85ae-a0ff-c6a8ee760fd0/057ab48b104801c2655ae55433a705d8/Data/PlatformCapsuleButton.mesh
+  Assets:
+    - !<FileMesh/3809b831-9d43-4c09-8195-a95ba6807813>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1472
+        Vertices: 786
+        Blendshapes:
+          - Pinch
+        Joints: 0
+        AabbSize: {x: 11.831454, y: 3.435299, z: 3.179418}
+  SourceHash: 057ab48b104801c2655ae55433a705d8
+  FileHash: ade17a96484ccb30e4777f9939eb4fc5
+  NativePackageItems:
+    []

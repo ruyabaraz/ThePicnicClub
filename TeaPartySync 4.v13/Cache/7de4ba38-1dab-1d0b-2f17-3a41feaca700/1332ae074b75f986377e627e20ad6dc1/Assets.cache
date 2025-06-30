@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    a0ac4e9d-cbef-4400-89e2-3b3b924aa0eb: 7de4ba38-1dab-1d0b-2f17-3a41feaca700/1332ae074b75f986377e627e20ad6dc1/Data/tsconfig.json
+  Assets:
+    - !<JsonAsset/a0ac4e9d-cbef-4400-89e2-3b3b924aa0eb>
+      PackagePath: ""
+  SourceHash: 1332ae074b75f986377e627e20ad6dc1
+  FileHash: ee7d484a0612c1bf9ef574d72a758cfa
+  NativePackageItems:
+    []

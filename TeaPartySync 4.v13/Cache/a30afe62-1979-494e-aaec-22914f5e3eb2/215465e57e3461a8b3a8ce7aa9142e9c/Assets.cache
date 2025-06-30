@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    916b58d9-2aab-494b-acd5-ca1fbcacae9b: a30afe62-1979-494e-aaec-22914f5e3eb2/215465e57e3461a8b3a8ce7aa9142e9c/Data/macaron_vanilla.002.mesh
+  Assets:
+    - !<FileMesh/916b58d9-2aab-494b-acd5-ca1fbcacae9b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 428
+        Vertices: 549
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.059420, y: 0.059969, z: 0.043217}
+  SourceHash: 215465e57e3461a8b3a8ce7aa9142e9c
+  FileHash: 544d7f6e6acd205bff538f39e3221fa1
+  NativePackageItems:
+    []

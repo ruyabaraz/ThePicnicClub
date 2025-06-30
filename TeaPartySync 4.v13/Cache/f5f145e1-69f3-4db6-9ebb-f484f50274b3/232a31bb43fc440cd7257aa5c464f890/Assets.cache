@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    7bda9cec-1592-485e-9736-8194d250000d: f5f145e1-69f3-4db6-9ebb-f484f50274b3/232a31bb43fc440cd7257aa5c464f890/Data/candle_1.mesh
+  Assets:
+    - !<FileMesh/7bda9cec-1592-485e-9736-8194d250000d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1038
+        Vertices: 712
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.339101, y: 0.339101, z: 2.323710}
+  SourceHash: 232a31bb43fc440cd7257aa5c464f890
+  FileHash: c0d59ca6627f30fd6553c1abb7f663aa
+  NativePackageItems:
+    []

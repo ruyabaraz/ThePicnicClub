@@ -1,0 +1,215 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Data From Script [DO NOT EDIT]",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "depthTarget", 
+                    	"label":       "Depth Render Target", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "oceanPos",
+                    	"label":       "Ocean World Transform",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "oceanMin",
+                    	"label":       "Ocean Mesh Min",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "oceanMax",
+                    	"label":       "Ocean Mesh Max",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    { 
+                    	"bindingName": "oceanHeightmap", 
+                    	"label":       "Heightmap", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "unpackVal",
+                    	"label":       "unpackVal",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"label": "Fluid 2D",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "enableFluid",
+                        	"label":       "Enable Fluid 2D",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "1",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "fluidMul",
+                        	"label":       "Fluid Intensity",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        { 
+                        	"bindingName": "fluidPressure", 
+                        	"label":       "Fluid Pressure", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "3",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "pressureRange",
+                        	"label":       "Pressure Range",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "807",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Underwater",
+                    	"widget": "group_start"
+                    },                        
+                        { 
+                        	"bindingName": "screenTex", 
+                        	"label":       "Screen Texture", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "0",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "blurFactor",
+                        	"label":       "Blur Factor",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "underwaterTint",
+                        	"label":       "Underwater Color",
+                        	"widget":      "color",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"label": "Line",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "enableLine",
+                        	"label":       "Enable Line",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "1",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "lineTint",
+                        	"label":       "Line Color",
+                        	"widget":      "color",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "meniscusThickness",
+                        	"label":       "Thickness",
+                        	"widget":      "slider",
+                        	"min":         0,
+                        	"max":         1,
+                        	"step":        "0.01",
+                        	"sortIndex":   "0",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "PostProcessing",
+	
+	"extraDefines":
+	[
+		
+	]
+}

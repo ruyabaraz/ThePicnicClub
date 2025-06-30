@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7e505a79-53d0-4e57-86af-fc890e9b864e: 8a44e4b5-f2c3-42ef-a4d7-bae9f5f4951a/21fc3c9dd532cb167571d709c7a534b5/Data/icing_nrm.jpg
+  Assets:
+    - !<FileTexture/7e505a79-53d0-4e57-86af-fc890e9b864e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 21fc3c9dd532cb167571d709c7a534b5
+  FileHash: 5fc022d836a07ed7162aecaabf011113
+  NativePackageItems:
+    []

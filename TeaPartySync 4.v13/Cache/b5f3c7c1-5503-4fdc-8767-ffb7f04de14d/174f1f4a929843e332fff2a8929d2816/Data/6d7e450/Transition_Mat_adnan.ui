@@ -1,0 +1,349 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "progresslemonade",
+                	"label":       "Progress",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1.5,
+                	"step":        "0.01",
+                	"sortIndex":   "-2",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N65",
+                	"label":       "Animate",
+                	"widget":      "checkbox",
+                	"sortIndex":   "-1",
+                	"hint":        ""
+                },
+                
+                {
+                	"label": "Object Visual",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "baseTex", 
+                    	"label":       "Base Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "-1",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "objectRim",
+                    	"label":       "Object Rim",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "objectRimIntensity",
+                    	"label":       "Object Rim Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         2,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    { 
+                    	"bindingName": "normalTex", 
+                    	"label":       "Normal Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "1",
+                    	"hint":        ""
+                    },
+                    
+                    { 
+                    	"bindingName": "materialParamsTex", 
+                    	"label":       "Material Params", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "2",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "uvScale",
+                    	"label":       "UV Scale",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "3",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"bindingName": "Tweak_N20",
+                	"label":       "Metallic",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "opacityBias",
+                	"label":       "Opacity Bias",
+                	"widget":      "slider",
+                	"min":         0.25,
+                	"max":         1.5,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "0.75"
+                },
+                
+                {
+                	"label": "Refractive Region",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "screenTex", 
+                    	"label":       "Screen Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "refractionDistortSpeed",
+                    	"label":       "Refraction Distort Speed",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         3,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "noiseScale",
+                    	"label":       "Noise Scale",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "refractIntensity",
+                    	"label":       "Refraction Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         0.03,
+                    	"step":        "0.005",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "0.01"
+                    },
+                    
+                    {
+                    	"bindingName": "jitter",
+                    	"label":       "Jitter",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         5,
+                    	"step":        "0.1",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "reafractiveRimIntensity",
+                    	"label":       "Refractive Rim Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         2,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "refractRimColor",
+                    	"label":       "Refractive Rim Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N26",
+                    	"label":       "Refraction Region Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "whitening",
+                    	"label":       "Whitening",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "0.1"
+                    },
+                    
+                    {
+                    	"bindingName": "refractMetallic",
+                    	"label":       "Refract Area Metallic",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "refractRoughness",
+                    	"label":       "Refract Area Roughness",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "refractiveRegionWidth",
+                    	"label":       "refractiveRegionWidth",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         0.5,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Line",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "lineDistortSpeed",
+                    	"label":       "Line Distort Speed",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         3,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "lineDistortionIntensity",
+                    	"label":       "Line Distortion Intensity",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         0.3,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "direction",
+                    	"label":       "Direction",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "lineWidth",
+                    	"label":       "lineWidth",
+                    	"widget":      "slider",
+                    	"min":         0.005,
+                    	"max":         0.5,
+                    	"step":        "0.005",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "0.1"
+                    },
+                    
+                    {
+                    	"bindingName": "lineFeathering",
+                    	"label":       "Line Feathering",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         0.1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "0.03"
+                    },
+                    
+                    {
+                    	"bindingName": "lineColor",
+                    	"label":       "Line Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER",
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

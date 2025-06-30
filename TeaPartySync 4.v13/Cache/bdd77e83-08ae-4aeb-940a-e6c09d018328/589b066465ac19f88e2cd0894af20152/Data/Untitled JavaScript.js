@@ -1,0 +1,1 @@
+const voiceMLModule = require('LensStudio:VoiceMLModule');

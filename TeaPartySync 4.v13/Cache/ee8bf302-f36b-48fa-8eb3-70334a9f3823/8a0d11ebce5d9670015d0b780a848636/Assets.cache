@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    79f658a8-c909-4d37-9287-a646dbb32b2f: ee8bf302-f36b-48fa-8eb3-70334a9f3823/8a0d11ebce5d9670015d0b780a848636/Data/macaron_haki1.002.mesh
+  Assets:
+    - !<FileMesh/79f658a8-c909-4d37-9287-a646dbb32b2f>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1824
+        Vertices: 1829
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.060946, y: 0.059669, z: 0.044183}
+  SourceHash: 8a0d11ebce5d9670015d0b780a848636
+  FileHash: fe003d915416995ad198f3289b88b848
+  NativePackageItems:
+    []

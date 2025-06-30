@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c9c58799-2d6e-4385-af84-7a04ebdb471b: 10c5099a-9b3e-244a-1b68-1eb780edbe2a/6ea112433a9068af62e384d0868e212e/Data/translate.png
+  Assets:
+    - !<FileTexture/c9c58799-2d6e-4385-af84-7a04ebdb471b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 96
+        Height: 96
+  SourceHash: 6ea112433a9068af62e384d0868e212e
+  FileHash: b9021fb6689dc82a2ba9c80f9b1081f3
+  NativePackageItems:
+    []

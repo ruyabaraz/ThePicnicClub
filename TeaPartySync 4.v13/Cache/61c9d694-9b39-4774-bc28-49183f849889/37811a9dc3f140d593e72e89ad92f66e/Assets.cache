@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    4fc03279-3e7e-4060-a97a-257b8bddd469: 61c9d694-9b39-4774-bc28-49183f849889/37811a9dc3f140d593e72e89ad92f66e/Data/Star2.010.mesh
+  Assets:
+    - !<FileMesh/4fc03279-3e7e-4060-a97a-257b8bddd469>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 150
+        Vertices: 293
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.084729, y: 0.050610, z: 0.084887}
+  SourceHash: 37811a9dc3f140d593e72e89ad92f66e
+  FileHash: 2d04c9553f6a98402e5b4116d6968912
+  NativePackageItems:
+    []

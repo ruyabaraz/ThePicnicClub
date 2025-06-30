@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    41e70b58-9dbf-4c8a-b446-d1ec6cc93f9e: 88d684f1-b3fc-0839-1b7d-7b4e1d8dafdd/1ec992424cd124a5cfad7b037a0e2116/Data/FollowIconBlack.png
+  Assets:
+    - !<FileTexture/41e70b58-9dbf-4c8a-b446-d1ec6cc93f9e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 96
+        Height: 96
+  SourceHash: 1ec992424cd124a5cfad7b037a0e2116
+  FileHash: 1804504c66036dc2df6c9268693d92dc
+  NativePackageItems:
+    []

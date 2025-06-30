@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    12abb408-f1db-44a9-9eb3-870b856c2c9b: 5fbba12f-b437-4542-2e7a-08183f8be98e/928d0350b42f59bf66d45e870550074c/Data/diffuse.png
+  Assets:
+    - !<FileTexture/12abb408-f1db-44a9-9eb3-870b856c2c9b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 928d0350b42f59bf66d45e870550074c
+  FileHash: 41b585f4c848541f02fdc3152fe375d5
+  NativePackageItems:
+    []

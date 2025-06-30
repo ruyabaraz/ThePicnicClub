@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    062616f3-37d4-407c-9b32-6a055ff4bc33: cb16c84b-0678-e1ce-afa5-626053c23936/031822b9dc0da23bca861f9137c638aa/Data/container-ui.png
+  Assets:
+    - !<FileTexture/062616f3-37d4-407c-9b32-6a055ff4bc33>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 636
+        Height: 1150
+  SourceHash: 031822b9dc0da23bca861f9137c638aa
+  FileHash: f5d69294d118d542b0851eaf0d4d1ba1
+  NativePackageItems:
+    []

@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/4564ddb8-a9bb-4d6a-8d69-19d90aa4dffd>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> fb20dab2-eb49-4857-86eb-14ffc5c7fba1
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> fb20dab2-eb49-4857-86eb-14ffc5c7fba1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    AssetLibraryId: 4WHGX1gsSGS2GQvg9gPQCr
+  AssetDataMap:
+    ObjectPrefab: !<own> 6cb61996-e8e6-44f8-ab6a-982e4768e58f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXComponent/4a4e7b97-c54c-406d-9879-17fd4048e94e>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 0bcaa05a-2c13-48fb-ba6f-b3805f23aee7
+- !<ObjectPrefabAssetData/6cb61996-e8e6-44f8-ab6a-982e4768e58f>
+  SourceRemaps:
+    - 05b4b5e8-1eef-4a50-bc7c-5b4a29fec60e: d896bca7-7055-4eca-a8f3-52cbc77d8dc0
+    - 2800afec-5def-4900-b5a2-ec11614f92fd: 4a4e7b97-c54c-406d-9879-17fd4048e94e
+    - fb20dab2-eb49-4857-86eb-14ffc5c7fba1: 70d7c5ca-0c8e-49c7-a059-6c924fd69e77
+  SourceState: !<own> 70d7c5ca-0c8e-49c7-a059-6c924fd69e77
+- !<ObjectPrefab/70d7c5ca-0c8e-49c7-a059-6c924fd69e77>
+  PackagePath: SmokeVFX__PLACE_IN_OBJECTS_PANEL
+  objects:
+    - !<own> d896bca7-7055-4eca-a8f3-52cbc77d8dc0
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/d896bca7-7055-4eca-a8f3-52cbc77d8dc0>
+  PrefabRemaps:
+    []
+  Name: SmokeVFX__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4a4e7b97-c54c-406d-9879-17fd4048e94e

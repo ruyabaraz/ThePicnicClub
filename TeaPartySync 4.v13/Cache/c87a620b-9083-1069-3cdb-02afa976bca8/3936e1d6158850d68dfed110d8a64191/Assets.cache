@@ -1,0 +1,183 @@
+- !<AssetCache>
+  AssetFiles:
+    045ffc1a-d634-4bb9-9c5f-fd4bfbbbf848: c87a620b-9083-1069-3cdb-02afa976bca8/3936e1d6158850d68dfed110d8a64191/Data/Fluid Jacobi.ss_graph
+  Assets:
+    - !<ShaderGraphPass/045ffc1a-d634-4bb9-9c5f-fd4bfbbbf848>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sPressure
+            mType: Property
+            mName: sPressure
+            mWidget: texture_group
+            mHint: "Property: sPressure"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sDivergence
+            mType: Property
+            mName: sDivergence
+            mWidget: texture_group
+            mHint: "Property: sDivergence"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: sBoundary
+            mType: Property
+            mName: sBoundary
+            mWidget: texture_group
+            mHint: "Property: sBoundary"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: pressureRange
+            mType: Property
+            mName: pressureRange
+            mWidget: spinbox
+            mHint: "Property: pressureRange"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: divergenceRange
+            mType: Property
+            mName: divergenceRange
+            mWidget: spinbox
+            mHint: "Property: divergenceRange"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: alpha
+            mType: Property
+            mName: alpha
+            mWidget: spinbox
+            mHint: "Property: alpha"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: wrapMode
+            mType: Property
+            mName: wrapMode
+            mWidget: spinbox
+            mHint: "Property: wrapMode"
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: reset
+            mType: Property
+            mName: reset
+            mWidget: spinbox
+            mHint: "Property: reset"
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: c87a620b-9083-1069-3cdb-02afa976bca8/3936e1d6158850d68dfed110d8a64191/Data/cd070e4/Fluid Jacobi.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 3936e1d6158850d68dfed110d8a64191
+  FileHash: 73449c99d1ebac346139ce16bbe5f9d7
+  NativePackageItems:
+    []

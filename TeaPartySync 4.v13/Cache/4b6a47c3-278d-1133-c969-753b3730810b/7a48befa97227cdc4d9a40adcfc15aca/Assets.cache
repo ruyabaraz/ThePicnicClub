@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6063802d-ee64-444f-af31-040849a4de73: 4b6a47c3-278d-1133-c969-753b3730810b/7a48befa97227cdc4d9a40adcfc15aca/Data/glow_plane.mesh
+  Assets:
+    - !<FileMesh/6063802d-ee64-444f-af31-040849a4de73>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.000000, y: 2.000000, z: 0.000000}
+  SourceHash: 7a48befa97227cdc4d9a40adcfc15aca
+  FileHash: e5b35c7234d959bf27fb857fcaa52b3a
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    58ac0348-7976-4960-aa75-52c7c71cb817: 869bc756-3454-4822-97d3-e4218aed692b/2e55c2b100d0499445ea11091a763a07/Data/cake_plates1.mesh
+  Assets:
+    - !<FileMesh/58ac0348-7976-4960-aa75-52c7c71cb817>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1390
+        Vertices: 858
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.312908, y: 0.312908, z: 0.368606}
+  SourceHash: 2e55c2b100d0499445ea11091a763a07
+  FileHash: 1d8fa2be6bc9fa907eeea590ff45554c
+  NativePackageItems:
+    []

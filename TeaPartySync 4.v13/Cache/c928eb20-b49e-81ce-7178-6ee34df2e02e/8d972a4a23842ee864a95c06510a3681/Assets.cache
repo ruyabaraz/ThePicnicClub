@@ -1,0 +1,179 @@
+- !<AssetCache>
+  AssetFiles:
+    b7b5f0ba-3b6c-4cdc-ab10-2c4aa954c551: c928eb20-b49e-81ce-7178-6ee34df2e02e/8d972a4a23842ee864a95c06510a3681/Data/Fluid 2D Normal.ss_graph
+  Assets:
+    - !<ShaderGraphPass/b7b5f0ba-3b6c-4cdc-ab10-2c4aa954c551>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N051:
+          typeIdx: 1
+          value: 0.500000
+        Port_Import_N131:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input0_N011:
+          typeIdx: 3
+          value: {x: -1.000000, y: 0.000000}
+        Port_Input0_N016:
+          typeIdx: 3
+          value: {x: 1.000000, y: 0.000000}
+        Port_Input0_N112:
+          typeIdx: 3
+          value: {x: 0.000000, y: -1.000000}
+        Port_Input0_N115:
+          typeIdx: 3
+          value: {x: 0.000000, y: 1.000000}
+        Port_Input1_N007:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N008:
+          typeIdx: 1
+          value: 2.000000
+        Port_LODValue_N015:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N109:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N114:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N117:
+          typeIdx: 1
+          value: 0.000000
+        Port_Max1_N000:
+          typeIdx: 1
+          value: 1.000000
+        Port_Max2_N000:
+          typeIdx: 1
+          value: 1.000000
+        Port_Min1_N000:
+          typeIdx: 1
+          value: -40.000000
+        Port_Min2_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value4_N120:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Fluids 2D
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Pressure Map
+            mType: Property
+            mName: Tweak_N55
+            mWidget: texture_group
+            mHint: "Property: Tweak_N55"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: c928eb20-b49e-81ce-7178-6ee34df2e02e/8d972a4a23842ee864a95c06510a3681/Data/cd070e4/Fluid 2D Normal.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 8d972a4a23842ee864a95c06510a3681
+  FileHash: b6193642e6cda877088a846bbd79de81
+  NativePackageItems:
+    []

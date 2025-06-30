@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    cf235dde-1d44-4681-a122-aba8037f9c85: 836c49fe-794b-42e6-9d36-49611d719fe9/37dcbb1726c012856a6f72380fbe9bc2/Data/sprinkle_2.mesh
+  Assets:
+    - !<FileMesh/cf235dde-1d44-4681-a122-aba8037f9c85>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3648
+        Vertices: 2457
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 7.304065, y: 8.152238, z: 2.918583}
+  SourceHash: 37dcbb1726c012856a6f72380fbe9bc2
+  FileHash: 769c81122f6515006617a52963a0614b
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    92a38ded-c2d4-4e22-8358-d535c7dd5502: d6c97ac3-7169-b514-314a-de12b65a5b27/4810f432484c5efb8eac4f926864bced/Data/Rectangle-Active.png
+  Assets:
+    - !<FileTexture/92a38ded-c2d4-4e22-8358-d535c7dd5502>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 600
+        Height: 100
+  SourceHash: 4810f432484c5efb8eac4f926864bced
+  FileHash: f571879f7485cab5b66d79564a2da77c
+  NativePackageItems:
+    []

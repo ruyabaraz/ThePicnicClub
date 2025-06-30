@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9d7def37-7bcd-4ddd-b968-97b364c0425f: 54e4b491-226a-e0b6-2f0b-04f76a8051a2/caaccfc09fc7624f0ca3de1695fd58d7/Data/SliderSphereKnob.mesh
+  Assets:
+    - !<FileMesh/9d7def37-7bcd-4ddd-b968-97b364c0425f>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 960
+        Vertices: 559
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.148750, y: 2.148750, z: 2.148750}
+  SourceHash: caaccfc09fc7624f0ca3de1695fd58d7
+  FileHash: ff532bb0618e6eb5f50905da8e0cbf29
+  NativePackageItems:
+    []

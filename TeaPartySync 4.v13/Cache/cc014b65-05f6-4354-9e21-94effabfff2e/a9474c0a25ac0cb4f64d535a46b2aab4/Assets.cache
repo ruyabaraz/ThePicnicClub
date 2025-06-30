@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e68d9616-4bd6-474b-ba83-d60830887a9c: cc014b65-05f6-4354-9e21-94effabfff2e/a9474c0a25ac0cb4f64d535a46b2aab4/Data/wrapper_base.jpg
+  Assets:
+    - !<FileTexture/e68d9616-4bd6-474b-ba83-d60830887a9c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2000
+        Height: 2000
+  SourceHash: a9474c0a25ac0cb4f64d535a46b2aab4
+  FileHash: 2a914903797e082114844c1947b5cf59
+  NativePackageItems:
+    []

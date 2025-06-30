@@ -1,0 +1,45 @@
+- !<AssetImportMetadata/37d2be13-e2d7-483b-843c-27035cc98d6e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 59a9f3c3-d264-4ad0-be0f-0294ccf3b3b9
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 59a9f3c3-d264-4ad0-be0f-0294ccf3b3b9
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6c35eb34-7d06-4d57-9a6f-17d173840b65
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6c35eb34-7d06-4d57-9a6f-17d173840b65>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 608c1fbf-75dd-4e5b-9884-f62490a4de45
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    picnicRoot: false
+    surfaceDetection: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - picnicRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      surfaceDetection: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject picnicRoot
+    - // @input AssignableType surfaceDetection

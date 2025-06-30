@@ -1,0 +1,232 @@
+- !<AssetCache>
+  AssetFiles:
+    1d00c4c7-343c-45be-8975-79a79061f77a: 06c88af4-7c11-f641-0ba1-9d9243a75c54/b1471a8cc56777b5826ec3d84e92f053/Data/Bilateral Blur Mat.ss_graph
+  Assets:
+    - !<ShaderGraphPass/1d00c4c7-343c-45be-8975-79a79061f77a>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input0_N187:
+          typeIdx: 1
+          value: -1.000000
+        Port_Input1_N047:
+          typeIdx: 1
+          value: 0.180000
+        Port_Item0_N009:
+          typeIdx: 1
+          value: 0.150000
+        Port_Item0_N114:
+          typeIdx: 1
+          value: 1.444400
+        Port_Item10_N009:
+          typeIdx: 1
+          value: 0.270000
+        Port_Item11_N009:
+          typeIdx: 1
+          value: 0.270000
+        Port_Item12_N009:
+          typeIdx: 1
+          value: 0.270000
+        Port_Item13_N009:
+          typeIdx: 1
+          value: 0.270000
+        Port_Item1_N009:
+          typeIdx: 1
+          value: 0.150000
+        Port_Item1_N114:
+          typeIdx: 1
+          value: -1.444400
+        Port_Item2_N009:
+          typeIdx: 1
+          value: 0.100000
+        Port_Item2_N114:
+          typeIdx: 1
+          value: 3.500000
+        Port_Item3_N009:
+          typeIdx: 1
+          value: 0.100000
+        Port_Item3_N114:
+          typeIdx: 1
+          value: -2.500000
+        Port_Item4_N009:
+          typeIdx: 1
+          value: 0.070000
+        Port_Item4_N114:
+          typeIdx: 1
+          value: 3.500000
+        Port_Item5_N009:
+          typeIdx: 1
+          value: 0.070000
+        Port_Item5_N114:
+          typeIdx: 1
+          value: -3.500000
+        Port_Item6_N009:
+          typeIdx: 1
+          value: 0.050000
+        Port_Item6_N114:
+          typeIdx: 1
+          value: 4.500000
+        Port_Item7_N009:
+          typeIdx: 1
+          value: 0.050000
+        Port_Item7_N114:
+          typeIdx: 1
+          value: -3.500000
+        Port_Item8_N009:
+          typeIdx: 1
+          value: 0.270000
+        Port_Item9_N009:
+          typeIdx: 1
+          value: 0.270000
+        Port_LODValue_N012:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N046:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value2_N048:
+          typeIdx: 1
+          value: 0.180000
+        Port_Value3_N014:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N048:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N014:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N048:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Script Data
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Texture
+            mType: Property
+            mName: normTex
+            mWidget: texture_group
+            mHint: "Property: normTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: blurDirection
+            mType: Property
+            mName: blurDirection
+            mWidget: spinbox
+            mHint: "Property: blurDirection"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: 06c88af4-7c11-f641-0ba1-9d9243a75c54/b1471a8cc56777b5826ec3d84e92f053/Data/cd070e4/Bilateral Blur Mat.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: b1471a8cc56777b5826ec3d84e92f053
+  FileHash: 3ab7c61185d0ab3403ca6681e6123acc
+  NativePackageItems:
+    []
