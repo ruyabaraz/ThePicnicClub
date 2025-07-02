@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    cad017d0-6750-4b63-83b0-0d0458a21744: 1c1b0d9f-a8b4-4209-95a5-22cd66bdd4e5/08ff6bb280006853e6de0de533660a3d/Data/cilek_cupcake4.mesh
+  Assets:
+    - !<FileMesh/cad017d0-6750-4b63-83b0-0d0458a21744>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1686
+        Vertices: 1261
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.102419, y: 0.098280, z: 0.159830}
+  SourceHash: 08ff6bb280006853e6de0de533660a3d
+  FileHash: 7d8e9dcf4a18b90fdf0930de2ffdbee2
+  NativePackageItems:
+    []

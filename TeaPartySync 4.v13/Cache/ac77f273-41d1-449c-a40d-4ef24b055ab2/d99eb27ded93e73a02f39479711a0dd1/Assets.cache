@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    2690330a-3164-4e3a-b54a-5e45f00aca15: ac77f273-41d1-449c-a40d-4ef24b055ab2/d99eb27ded93e73a02f39479711a0dd1/Data/cherry_cupcake1.mesh
+  Assets:
+    - !<FileMesh/2690330a-3164-4e3a-b54a-5e45f00aca15>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 4000
+        Vertices: 2100
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.096669, y: 0.100481, z: 0.181111}
+  SourceHash: d99eb27ded93e73a02f39479711a0dd1
+  FileHash: 6710279392367e9f293db1f82c96eb96
+  NativePackageItems:
+    []

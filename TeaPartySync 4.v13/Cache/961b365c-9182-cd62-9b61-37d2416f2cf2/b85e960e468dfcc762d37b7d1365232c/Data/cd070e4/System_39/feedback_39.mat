@@ -1,8 +1,8 @@
-- !<Material/e3051b80-75d8-49b4-af05-a8bd731b8686>
+- !<Material/f4690d97-e25a-4dbf-b3e5-f37ae726012f>
   PackagePath: ""
   PassesInfo:
-    - !<own> c570e8fb-5d96-4967-bae0-8b1d43c795a3
-- !<PassInfo/c570e8fb-5d96-4967-bae0-8b1d43c795a3>
+    - !<own> b2233ec7-d506-4bab-9920-032d9076db34
+- !<PassInfo/b2233ec7-d506-4bab-9920-032d9076db34>
   CachedProperties:
     []
   DepthWrite: false

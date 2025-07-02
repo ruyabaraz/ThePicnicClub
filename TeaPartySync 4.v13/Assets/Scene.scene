@@ -19,6 +19,7 @@
     - !<own> a552cb42-a22a-416e-9d58-589cd85d7a17
     - !<own> e369484b-fdb4-47f7-8a76-2f1eda8a8093
     - !<own> 2be0ea46-b663-4d75-9413-4f5602839aa4
+    - !<own> a81209c3-5a94-4a6c-ace5-05b55c7b5a5d
     - !<own> 940f4b74-c6c5-468f-ad66-75247ff7c8f2
     - !<own> 0150ff32-7e86-4803-bfae-8369a3c7bcc7
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
@@ -790,6 +791,21 @@
   BodySettingValue: 1.000000
   Damping: 0.000000
   AngularDamping: 0.000000
+- !<SceneObject/0536cc9e-fe4e-4946-85ce-658842295b8e>
+  PrefabRemaps:
+    []
+  Name: not a magician
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 37962e14-fee4-4a46-8074-508394bf0673
 - !<ScriptComponent/058cf973-fc48-43f4-a923-4dc94c7d867f>
   PrefabRemaps:
     []
@@ -6906,6 +6922,22 @@
     []
   Components:
     - !<own> 495be28c-d941-4176-a036-ed024fbcc7e5
+- !<ScriptComponent/1eb0e96d-d0d2-4924-afeb-a65956100788>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Helper
+  Enabled: true
+  ScriptAsset: !<reference> 61410d31-5b70-4629-945c-55d8cb0d51f6
+  ScriptInputsDefault:
+    remote: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      remote: !<reference.RemoteServiceModule> fab3d92b-7703-4c3d-8398-46854c53278c
+  ScriptTypes:
+    "":
+      {}
 - !<AudioComponent/2019cf4c-a3f1-4082-acb0-8b0c3205e2f2>
   PrefabRemaps:
     []
@@ -10905,6 +10937,23 @@
     []
   Components:
     - !<own> 4a6d5f66-efd8-48a8-b09a-cb7c35b9976f
+- !<AudioComponent/37962e14-fee4-4a46-8074-508394bf0673>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 70438bc1-0275-439f-84f0-e0d7d594e900
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/37a02772-0e9a-4ef5-a3e6-bd6d3eff44fc>
   PrefabRemaps:
     []
@@ -13392,6 +13441,7 @@
       runOnTap: false
       snap3DInteractablePrefab: !<reference.ObjectPrefab> db10c49c-d024-4b0e-8649-a551ad0864ad
       waiterAnimation: !<reference.AnimationPlayer> b1fea444-17a4-4d40-b0f2-73b443463b58
+      audioItemReady: !<reference.AudioComponent> cc5824ff-1f85-4adb-bf3a-3277c32fe49e
   ScriptTypes:
     "":
       {}
@@ -16515,6 +16565,22 @@
     - !<own> 2923d860-d87c-4b50-a6b2-5005c4c8b7bc
   Components:
     []
+- !<ScriptComponent/4b65b3f5-3bda-4aba-984e-1775bac141db>
+  PrefabRemaps:
+    []
+  Name: GPTFilter
+  Enabled: true
+  ScriptAsset: !<reference> febf5191-b70d-456c-a54a-bffc4c41bb3e
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/4b7098c2-ace8-4029-b842-caec46ec2429>
   PrefabRemaps:
     []
@@ -17090,7 +17156,7 @@
       animateMeshAnimationPlayerPlaybackMode: 0
       animateMeshAnimationPlayerStopOtherLayers: true
       playSoundAction: Play
-      playSoundAudioTrack: !<reference.AudioTrackAsset> 30315060-952f-4da5-a3c1-e292a0f37c41
+      playSoundAudioTrack: !<reference.AudioTrackAsset> 5da25336-9813-41ef-9c86-c91d575a5900
       playSoundAudioComponent: !<reference.AudioComponent> 59f196b7-c932-475a-a70f-f2f9eef7ad33
       playSoundLoop: false
       playSoundVolume: !<float> 1.000000
@@ -21773,7 +21839,7 @@
     []
   Name: Audio
   Enabled: true
-  AudioTrack: !<reference> 30315060-952f-4da5-a3c1-e292a0f37c41
+  AudioTrack: !<reference> 5da25336-9813-41ef-9c86-c91d575a5900
   EnableAutoplayLoop: false
   Volume: 1.000000
   EnableMixToSnap: false
@@ -22108,6 +22174,23 @@
     bottom: -1.050000
     right: 3.750000
     top: 1.050000
+- !<AudioComponent/5db387cc-016e-441b-9054-c0ae8f845e74>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> f0f87f40-0a38-4f71-b3da-9a769cb22487
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<ScriptComponent/5e5b3a4c-85b3-47fd-80fb-0f0f561eca41>
   PrefabRemaps:
     []
@@ -31455,6 +31538,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/7cfa8c27-03a0-4e3c-a41f-3f7726b2eb36>
+  PrefabRemaps:
+    []
+  Name: GPTFilter
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4b65b3f5-3bda-4aba-984e-1775bac141db
 - !<SceneObject/7d7d6a20-f19b-4df6-b005-7a88333a5e03>
   PrefabRemaps:
     []
@@ -34347,6 +34445,21 @@
     - !<own> 71ea36cd-d251-4ee8-a66a-a758bbee8ac2
   Components:
     []
+- !<SceneObject/8da093d4-8802-49a8-a13d-066bff9e23cd>
+  PrefabRemaps:
+    []
+  Name: food ready
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cc5824ff-1f85-4adb-bf3a-3277c32fe49e
 - !<RenderMeshVisual/8de9d01e-ae6d-46a3-b78f-4e7bbe89feb8>
   PrefabRemaps:
     []
@@ -37366,6 +37479,21 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/a81209c3-5a94-4a6c-ace5-05b55c7b5a5d>
+  PrefabRemaps:
+    []
+  Name: ChatGPT Helper
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7cfa8c27-03a0-4e3c-a41f-3f7726b2eb36
+  Components:
+    - !<own> 1eb0e96d-d0d2-4924-afeb-a65956100788
 - !<Text/a81a171a-de4f-4923-9042-944567e8aa3c>
   PrefabRemaps:
     []
@@ -40490,6 +40618,9 @@
     - !<own> 435184f4-8410-460e-973f-f97b4a7dcac4
     - !<own> fc437191-ce5b-48da-b324-ddca35e9aaa4
     - !<own> 793f9e43-20ea-4036-9596-56afb6419d2b
+    - !<own> c9b6b6e3-822c-4412-adfc-621592d579d1
+    - !<own> 0536cc9e-fe4e-4946-85ce-658842295b8e
+    - !<own> 8da093d4-8802-49a8-a13d-066bff9e23cd
     - !<own> bf715f9b-2296-4572-a515-3e8103d2f7a9
   Components:
     []
@@ -47036,6 +47167,21 @@
     - !<own> d80eddbf-71a3-4eee-9591-59255d3e4b13
   Components:
     []
+- !<SceneObject/c9b6b6e3-822c-4412-adfc-621592d579d1>
+  PrefabRemaps:
+    []
+  Name: nice pick
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5db387cc-016e-441b-9054-c0ae8f845e74
 - !<SceneObject/ca6a2081-3132-4d7a-a169-8368dd1ea31c>
   PrefabRemaps:
     []
@@ -47265,6 +47411,23 @@
   ScriptTypes:
     "":
       {}
+- !<AudioComponent/cc5824ff-1f85-4adb-bf3a-3277c32fe49e>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> b04f66a5-9c5b-48bc-a69f-c6c2555545ae
+  EnableAutoplayLoop: false
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: false
+  EnableDistanceEffect: false
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: false
+  EnablePositionEffect: false
 - !<SceneObject/ccdba077-b369-47cc-8b10-1bdbf5b34f23>
   PrefabRemaps:
     []
@@ -47479,6 +47642,9 @@
       button: !<MappingBased.AssignableType> 3ace3771-5371-4895-a619-fcdaffa306d3
       activityRenderMesh: !<reference.RenderMeshVisual> dfcc6ea5-4615-4f1e-8f45-e5aa14d45092
       aiItemSyncController: !<MappingBased.AssignableType_1> 0976f7b2-5f29-4d48-9ca0-3f9d91435c08
+      gptFilter: !<MappingBased.AssignableType_2> 4b65b3f5-3bda-4aba-984e-1775bac141db
+      audioFoodAccepted: !<reference.AudioComponent> 5db387cc-016e-441b-9054-c0ae8f845e74
+      audioNotEdible: !<reference.AudioComponent> 37962e14-fee4-4a46-8074-508394bf0673
   ScriptTypes:
     "":
       {}

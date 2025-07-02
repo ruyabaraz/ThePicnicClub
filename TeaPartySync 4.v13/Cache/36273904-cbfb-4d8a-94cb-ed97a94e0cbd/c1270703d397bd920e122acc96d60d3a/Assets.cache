@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    b04f66a5-9c5b-48bc-a69f-c6c2555545ae: 36273904-cbfb-4d8a-94cb-ed97a94e0cbd/c1270703d397bd920e122acc96d60d3a/Data/here you go.mp3
+  Assets:
+    - !<FileAudioTrack/b04f66a5-9c5b-48bc-a69f-c6c2555545ae>
+      PackagePath: ""
+  SourceHash: c1270703d397bd920e122acc96d60d3a
+  FileHash: f46e03df68e13184e6ae5d2236169dc4
+  NativePackageItems:
+    []

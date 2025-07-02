@@ -1,0 +1,261 @@
+- !<AssetImportMetadata/137dfb1d-cbb8-4acf-9814-b9b0b06d8642>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 52f68e37-912f-4244-a129-90fe8ab16551
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 52f68e37-912f-4244-a129-90fe8ab16551
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 0103862b-1d3c-467b-a062-8d0d3116a660
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/0103862b-1d3c-467b-a062-8d0d3116a660>
+  SourceRemaps:
+    - 10603098-ade8-4c62-a855-0c52c99092cd: 97dc4154-c20d-4514-9f81-ac27388796f5
+    - 12e8d77d-e059-4de3-9142-4ccddb5f3fd2: 18fe486a-65a7-4bde-aff5-670315a8ff50
+    - 52f68e37-912f-4244-a129-90fe8ab16551: f88ee9e5-eb5e-4d95-bdb8-8d851aa1fb01
+    - 75caff3e-c755-49bf-85f3-30b00844ff9a: be11eb49-85ac-43a6-aa99-fd17ade7d3b4
+    - 79b0c08e-b7d5-4b78-89a9-264a0c7e51af: 63e9a6ce-d741-490e-8639-32cfb4c3a8de
+    - 866ff7eb-75f6-42da-ab5c-c6d8bd2b4d5a: 73e69d07-4631-4395-978d-fbc1335358a8
+    - 8faa87a2-cbd4-4aa1-bb45-5ab0e1d6b2b3: a784249d-fe1f-46ef-b950-470942c03b2e
+    - 9490112a-7435-4e03-a14c-8b2c0f08b5d4: 441df8a3-f2db-45cd-bba7-34c53842d52c
+    - 9a2d4a97-c598-4e70-b6b6-f18e5d67b648: da57e472-1cdd-424d-b866-5dbb05b49294
+    - a391a6b4-8a52-4f5d-9075-052dda1fc5b5: 5799bb53-8a63-4d1c-9e51-cf6cdf5ddd55
+    - c1fbcd33-3677-48a1-8944-5f620acca418: 2f37b70b-43e8-4918-8b46-a8e00c11632c
+    - f1beae4c-16be-4099-b49b-d1c99adced91: ffcc7bb3-32ef-4f89-bd9a-85b3112e9ba8
+  SourceState: !<own> f88ee9e5-eb5e-4d95-bdb8-8d851aa1fb01
+- !<AnimationPlayer/18fe486a-65a7-4bde-aff5-670315a8ff50>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 73b084c4-721f-49c9-a9db-78ca01bcbe1e
+      Name: CubeCilek|CilekCubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 75.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 60fa214e-f7ff-422a-b39e-a1cd6c9b84d1
+      Name: cilek_cupcake|CilekCubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 75.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/2f37b70b-43e8-4918-8b46-a8e00c11632c>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1047eab1-8796-4c52-8908-2baaae263c52
+  Mesh: !<reference> e5552c91-3fa9-4025-af52-5e9a23effcc3
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/441df8a3-f2db-45cd-bba7-34c53842d52c>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9c8c1bfb-edbe-496e-8f4e-ca94700f5f9e
+  Mesh: !<reference> 31fdb511-d724-4623-ba65-b2b31e5a7bbe
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5799bb53-8a63-4d1c-9e51-cf6cdf5ddd55>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 114f0d04-cd63-4837-b9fd-4353c58addbc
+  Mesh: !<reference> 2f3d16ed-bf17-4e6a-810f-73cb3990d545
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/63e9a6ce-d741-490e-8639-32cfb4c3a8de>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 14b44e4b-bd49-4583-ba95-1debac2566fc
+  Mesh: !<reference> 4a1d8b0a-0097-41c8-8416-f67fbe06e7e9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/73e69d07-4631-4395-978d-fbc1335358a8>
+  PrefabRemaps:
+    []
+  Name: CubeCilek
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 68.388702, y: 10.421148, z: -61.000210}
+    rotation: {x: -89.999985, y: 0.000000, z: 0.000000}
+    scale: {x: 3.572630, y: 3.572630, z: 3.572630}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a784249d-fe1f-46ef-b950-470942c03b2e
+  Components:
+    - !<own> 97dc4154-c20d-4514-9f81-ac27388796f5
+- !<RenderMeshVisual/97dc4154-c20d-4514-9f81-ac27388796f5>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> cfdfe566-a40f-44b6-8238-b4ece3afec24
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a784249d-fe1f-46ef-b950-470942c03b2e>
+  PrefabRemaps:
+    []
+  Name: cilek_cupcake
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000114, y: 0.000007, z: -0.000052}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 14.285818, y: 14.285818, z: 14.285818}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 441df8a3-f2db-45cd-bba7-34c53842d52c
+    - !<own> ffcc7bb3-32ef-4f89-bd9a-85b3112e9ba8
+    - !<own> 5799bb53-8a63-4d1c-9e51-cf6cdf5ddd55
+    - !<own> 2f37b70b-43e8-4918-8b46-a8e00c11632c
+    - !<own> da57e472-1cdd-424d-b866-5dbb05b49294
+    - !<own> 63e9a6ce-d741-490e-8639-32cfb4c3a8de
+- !<SceneObject/be11eb49-85ac-43a6-aa99-fd17ade7d3b4>
+  PrefabRemaps:
+    []
+  Name: cilekCupcake
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 73e69d07-4631-4395-978d-fbc1335358a8
+  Components:
+    - !<own> 18fe486a-65a7-4bde-aff5-670315a8ff50
+- !<RenderMeshVisual/da57e472-1cdd-424d-b866-5dbb05b49294>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 529939cc-d36e-43b2-aeef-b7237cb45c87
+  Mesh: !<reference> cad017d0-6750-4b63-83b0-0d0458a21744
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/f88ee9e5-eb5e-4d95-bdb8-8d851aa1fb01>
+  PackagePath: ""
+  objects:
+    - !<own> be11eb49-85ac-43a6-aa99-fd17ade7d3b4
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/ffcc7bb3-32ef-4f89-bd9a-85b3112e9ba8>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5f145ecb-9f46-4096-92be-7f34e2bbb8d9
+  Mesh: !<reference> 3edea5c0-7299-400b-8c7a-662756c5adf2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

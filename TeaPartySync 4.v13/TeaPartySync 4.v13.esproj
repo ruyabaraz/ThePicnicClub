@@ -27,7 +27,7 @@ metaInfo:
     []
   lensName: The Picnic Club
   lensDescriptors:
-    - EXPERIMENTAL_API
+    []
   lensApplicability:
     - Front
     - Back

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ed56c082-a27d-4e22-a462-36f16a094b4b: 44604c73-c666-4352-b240-578c95eb272b/2dd13f8cd19dd908ea6c008d14a03bd4/Data/CubeCherry.mesh
+  Assets:
+    - !<FileMesh/ed56c082-a27d-4e22-a462-36f16a094b4b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 2.000000, z: 2.000000}
+  SourceHash: 2dd13f8cd19dd908ea6c008d14a03bd4
+  FileHash: f32c86def6f42dea6357afb002d71f75
+  NativePackageItems:
+    []

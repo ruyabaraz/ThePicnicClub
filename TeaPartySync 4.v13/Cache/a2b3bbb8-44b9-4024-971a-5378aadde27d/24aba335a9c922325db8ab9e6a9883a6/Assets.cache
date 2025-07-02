@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9d0ad6c9-8107-4043-ab2a-642a2ac54bee: a2b3bbb8-44b9-4024-971a-5378aadde27d/24aba335a9c922325db8ab9e6a9883a6/Data/bee1.mesh
+  Assets:
+    - !<FileMesh/9d0ad6c9-8107-4043-ab2a-642a2ac54bee>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3632
+        Vertices: 6046
+        Blendshapes:
+          []
+        Joints: 3
+        AabbSize: {x: 6.231511, y: 7.269439, z: 9.009693}
+  SourceHash: 24aba335a9c922325db8ab9e6a9883a6
+  FileHash: d2b3bd91abdc23f83d0537ccf0fc602c
+  NativePackageItems:
+    []

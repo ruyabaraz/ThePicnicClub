@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    5a8d4de9-1379-458c-bbc8-3963e8e91f96: 95e27305-a540-4f2c-929b-93676bb99461/7710fa3cc9c0e38ddb5e4d143db806be/Data/kapak.mesh
+  Assets:
+    - !<FileMesh/5a8d4de9-1379-458c-bbc8-3963e8e91f96>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1152
+        Vertices: 914
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.169817, y: 0.207739, z: 0.025844}
+  SourceHash: 7710fa3cc9c0e38ddb5e4d143db806be
+  FileHash: 112c24c219c8db0bc4f383a2205894fa
+  NativePackageItems:
+    []

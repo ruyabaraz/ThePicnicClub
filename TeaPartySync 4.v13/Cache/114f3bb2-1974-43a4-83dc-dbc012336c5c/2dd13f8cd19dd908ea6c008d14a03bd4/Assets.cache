@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    cfdfe566-a40f-44b6-8238-b4ece3afec24: 114f3bb2-1974-43a4-83dc-dbc012336c5c/2dd13f8cd19dd908ea6c008d14a03bd4/Data/CubeCilek.mesh
+  Assets:
+    - !<FileMesh/cfdfe566-a40f-44b6-8238-b4ece3afec24>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.000000, y: 2.000000, z: 2.000000}
+  SourceHash: 2dd13f8cd19dd908ea6c008d14a03bd4
+  FileHash: f32c86def6f42dea6357afb002d71f75
+  NativePackageItems:
+    []

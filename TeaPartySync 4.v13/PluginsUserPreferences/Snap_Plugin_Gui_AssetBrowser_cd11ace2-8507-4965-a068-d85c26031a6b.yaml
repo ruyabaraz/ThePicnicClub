@@ -1,20 +1,21 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 1652
+    size: 1474
     values:
-      - ""
       - 3DGeneration/AIItemSyncController.ts
       - 3DGeneration/APIKeyHint.ts
       - 3DGeneration/ASRQueryController.ts
       - 3DGeneration/ActivityIndicator.mat
       - 3DGeneration/ActivityIndicator.ss_graph
       - 3DGeneration/ChatGPT Helper.lsc
+      - 3DGeneration/GPTFilter.ts
       - 3DGeneration/Image.mat
       - 3DGeneration/ImageMaterial 2.mat
       - 3DGeneration/ImageMaterial.mat
       - 3DGeneration/InteractableSnap3DGenerator.ts
       - 3DGeneration/InternetAvailabilityPopUp.ts
+      - 3DGeneration/LoadingSpinner
       - 3DGeneration/LoadingSpinner/LoadingSpinner.mat
       - 3DGeneration/LoadingSpinner/LoadingSpinner.mesh
       - 3DGeneration/LoadingSpinner/LoadingSpinner.ss_graph
@@ -27,34 +28,14 @@ CollapsedEntities:
       - 3DGeneration/Snap3DInteractable.ts
       - 3DGeneration/Snap3DInteractableFactory.ts
       - 3DGeneration/image_unlit.ss_graph
+      - 3DGeneration/sounds
+      - 3DGeneration/sounds/here you go.mp3
+      - 3DGeneration/sounds/nice pick - daniel.mp3
+      - 3DGeneration/sounds/waiter no a mag - daniel.mp3
       - 6DB5683D-29DB-4E5B-9E37-85410BD3E4CF.PNG
       - Base 2.png
       - Base.png
       - Behavior.js
-      - CARROTNEW.glb
-      - CARROTNEW.glb/.hidden
-      - CARROTNEW.glb/.hidden/Material.007
-      - CARROTNEW.glb/CARROTNEW
-      - CARROTNEW.glb/Materials
-      - CARROTNEW.glb/Materials/Material.007
-      - CARROTNEW.glb/Materials/ceramic
-      - CARROTNEW.glb/Materials/cilek_yesil.001
-      - CARROTNEW.glb/Materials/new_cake_frosting
-      - CARROTNEW.glb/Materials/newcake
-      - CARROTNEW.glb/Meshes
-      - CARROTNEW.glb/Meshes/Cone.049
-      - CARROTNEW.glb/Meshes/Cone.050
-      - CARROTNEW.glb/Meshes/Cone.051
-      - CARROTNEW.glb/Meshes/Cone1.049
-      - CARROTNEW.glb/Meshes/Cone1.050
-      - CARROTNEW.glb/Meshes/Cone1.051
-      - CARROTNEW.glb/Meshes/Cone2.049
-      - CARROTNEW.glb/Meshes/Cone2.050
-      - CARROTNEW.glb/Meshes/Cone2.051
-      - CARROTNEW.glb/Meshes/Cone3.049
-      - CARROTNEW.glb/Meshes/Cone3.050
-      - CARROTNEW.glb/Meshes/Cone3.051
-      - CARROTNEW.glb/Meshes/Cone4.051
       - Cupcake
       - Cupcake/.hidden
       - Cupcake/.hidden/GPUParticlePreset_Migration.ss_graph
@@ -123,7 +104,6 @@ CollapsedEntities:
       - Gold/Gold.mat
       - Gold/Textures
       - Gold/Textures/white.png
-      - How May I help You.mp3
       - ImageMaterial 2.mat
       - ImageMaterial 3.mat
       - ImageMaterial.mat
@@ -158,54 +138,6 @@ CollapsedEntities:
       - Matte Shadow.mat
       - New Folder
       - Occluder.mat
-      - Ocean Tool.lspkg
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Fonts"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Fonts/Lato-Bold.ttf"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Fonts/Lato-Regular.ttf"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Materials"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Materials/Info Card Background.mat"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Materials/SpritePreset.mat"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Shaders"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Shaders/Info Card Background.ss_graph"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Shaders/SpritePreset.ss_graph"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Textures"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Textures/BaseTex.png"
-      - "Ocean Tool.lspkg/Info Card Resources [DELETE ME]/Info Card [DELETE_ME]/Textures/Icon.png"
-      - Ocean Tool.lspkg/Ocean Tool Resources
-      - Ocean Tool.lspkg/Ocean Tool Resources/Components
-      - Ocean Tool.lspkg/Ocean Tool Resources/Components/Fluid2d Ocean.lsc
-      - Ocean Tool.lspkg/Ocean Tool Resources/Materials
-      - "Ocean Tool.lspkg/Ocean Tool Resources/Materials/Floaty Material [COPY ME].mat"
-      - Ocean Tool.lspkg/Ocean Tool Resources/Materials/Ocean Surface Properties.mat
-      - Ocean Tool.lspkg/Ocean Tool Resources/Materials/Ocean Surface.mat
-      - Ocean Tool.lspkg/Ocean Tool Resources/Materials/Split View.mat
-      - Ocean Tool.lspkg/Ocean Tool Resources/Meshes
-      - Ocean Tool.lspkg/Ocean Tool Resources/Meshes/Ducky.mesh
-      - Ocean Tool.lspkg/Ocean Tool Resources/Meshes/Plane.mesh
-      - Ocean Tool.lspkg/Ocean Tool Resources/Meshes/Plane_80000.mesh
-      - Ocean Tool.lspkg/Ocean Tool Resources/Scripts
-      - Ocean Tool.lspkg/Ocean Tool Resources/Scripts/Modules
-      - Ocean Tool.lspkg/Ocean Tool Resources/Scripts/Modules/SceneObjectHelpersModule.js
-      - Ocean Tool.lspkg/Ocean Tool Resources/Scripts/Ocean Tool.js
-      - Ocean Tool.lspkg/Ocean Tool Resources/Shaders
-      - "Ocean Tool.lspkg/Ocean Tool Resources/Shaders/Floaty Shader [COPY ME].ss_graph"
-      - Ocean Tool.lspkg/Ocean Tool Resources/Shaders/Ocean Surface Properties.ss_graph
-      - Ocean Tool.lspkg/Ocean Tool Resources/Shaders/Ocean Surface.ss_graph
-      - Ocean Tool.lspkg/Ocean Tool Resources/Shaders/Split View.ss_graph
-      - Ocean Tool.lspkg/Ocean Tool Resources/Textures
-      - Ocean Tool.lspkg/Ocean Tool Resources/Textures/Body Depth Texture.bodyDepthTexture
-      - Ocean Tool.lspkg/Ocean Tool Resources/Textures/Depth Render Target.depthStencilRenderTarget
-      - Ocean Tool.lspkg/Ocean Tool Resources/Textures/Ocean Heightmap.renderTarget
-      - Ocean Tool.lspkg/Ocean Tool Resources/Textures/Ocean Normal.renderTarget
-      - Ocean Tool.lspkg/Ocean Tool Resources/Textures/Screen Texture.screenTexture
-      - Ocean Tool.lspkg/Ocean Tool Resources/Textures/ducky_base.png
-      - Ocean Tool.lspkg/Ocean Tool Resources/Textures/ducky_materialParams.png
-      - Ocean Tool.lspkg/Ocean Tool Resources/Tracking
-      - Ocean Tool.lspkg/Ocean Tool Resources/Tracking/Body Tracking 3D.bodyTracking3D
-      - Ocean Tool.lspkg/Ocean__PLACE_IN_SCENE.prefab
-      - Ocean Tool.lspkg/package.native
       - OnSurfaceDetected.ts
       - PBR 2.mat
       - PBR 3.mat
@@ -1277,83 +1209,13 @@ CollapsedEntities:
       - TweenManager/TweenManager.prefab
       - VoiceML Module.voiceMLModule
       - bardakAlt1.prefab
-      - bardakNEW.glb
-      - bardakNEW.glb/.hidden
-      - bardakNEW.glb/.hidden/ceramic
-      - bardakNEW.glb/Materials
-      - bardakNEW.glb/Materials/ceramic
-      - bardakNEW.glb/Meshes
-      - bardakNEW.glb/Meshes/Mesh.002
-      - bardakNEW.glb/Meshes/Mesh.003
-      - bardakNEW.glb/bardakNEW
-      - basketYepyeni.fbx
-      - basketYepyeni.fbx/.hidden
-      - basketYepyeni.fbx/.hidden/Wicker Basket
-      - basketYepyeni.fbx/.hidden/white
-      - basketYepyeni.fbx/Animations
-      - basketYepyeni.fbx/Animations/kapak_Croissant_low.001Action
-      - basketYepyeni.fbx/Animations/kapak_Croissant_lowAction
-      - basketYepyeni.fbx/Animations/kapak_cake mainAction
-      - basketYepyeni.fbx/Animations/kapak_cake_platesAction
-      - basketYepyeni.fbx/Animations/kapak_cale_standAction
-      - basketYepyeni.fbx/Animations/kapak_cherry_cupcake.001Action
-      - basketYepyeni.fbx/Animations/kapak_cherry_cupcakeAction
-      - basketYepyeni.fbx/Animations/kapak_cilek_cupcake.001Action
-      - basketYepyeni.fbx/Animations/kapak_cilek_cupcakeAction
-      - basketYepyeni.fbx/Animations/kapak_croissant_plateAction
-      - basketYepyeni.fbx/Animations/kapak_cup.001Action
-      - basketYepyeni.fbx/Animations/kapak_cupAction
-      - basketYepyeni.fbx/Animations/kapak_kalp-pasta.001Action
-      - basketYepyeni.fbx/Animations/kapak_kapakAction
-      - basketYepyeni.fbx/Animations/kapak_kapakAction.001
-      - basketYepyeni.fbx/Animations/kapak_saucer.001Action
-      - basketYepyeni.fbx/Animations/kapak_saucerAction
-      - basketYepyeni.fbx/Animations/kapak_teapotAction
-      - basketYepyeni.fbx/Materials
-      - basketYepyeni.fbx/Materials/Wicker Basket
-      - basketYepyeni.fbx/Meshes
-      - basketYepyeni.fbx/Meshes/basket
-      - basketYepyeni.fbx/Meshes/kapak
-      - basketYepyeni.fbx/Textures
-      - basketYepyeni.fbx/Textures/diffuse2
-      - basketYepyeni.fbx/basketYepyeni
       - cake main.prefab
-      - cakeNEW2.glb
-      - cakeNEW2.glb/.hidden
-      - cakeNEW2.glb/.hidden/Material.001
-      - cakeNEW2.glb/Materials
-      - cakeNEW2.glb/Materials/Material.001
-      - cakeNEW2.glb/Materials/Material.002
-      - cakeNEW2.glb/Materials/Material.004
-      - cakeNEW2.glb/Materials/kiraz
-      - cakeNEW2.glb/Materials/kiraz.003
-      - cakeNEW2.glb/Meshes
-      - cakeNEW2.glb/Meshes/Circle
-      - cakeNEW2.glb/Meshes/Circle1
-      - cakeNEW2.glb/Meshes/Circle2
-      - cakeNEW2.glb/Meshes/Circle3
-      - cakeNEW2.glb/Meshes/Plane.008
-      - cakeNEW2.glb/cakeNEW2
       - cake_server.prefab
       - carrotCakeStand.prefab
       - cilek_kirmizi.mat
       - cilek_yesil.mat
       - cream 2.mat
       - cream.mat
-      - croissant_plate.glb
-      - croissant_plate.glb/.hidden
-      - croissant_plate.glb/.hidden/Croissant_low
-      - croissant_plate.glb/Materials
-      - croissant_plate.glb/Materials/Croissant_low
-      - croissant_plate.glb/Materials/ceramic
-      - croissant_plate.glb/Meshes
-      - croissant_plate.glb/Meshes/Sphere.023
-      - croissant_plate.glb/Meshes/meshId0_name
-      - croissant_plate.glb/Textures
-      - croissant_plate.glb/Textures/Croissant_low_albedo
-      - croissant_plate.glb/Textures/Croissant_low_metallic.jpeg-Croissant_low_roughness.jpeg
-      - croissant_plate.glb/Textures/Croissant_low_normal
-      - croissant_plate.glb/croissant_plate
       - croissant_plate.prefab
       - cupcake_CAKE2.mat
       - cupcake_cake.mat
@@ -1393,22 +1255,6 @@ CollapsedEntities:
       - cupcake_cup.001.mat
       - cupcake_cup.mat
       - diffuse2.png
-      - heart_cakeNEW.glb
-      - heart_cakeNEW.glb/.hidden
-      - heart_cakeNEW.glb/.hidden/candle_holder
-      - heart_cakeNEW.glb/Materials
-      - heart_cakeNEW.glb/Materials/candle_holder
-      - heart_cakeNEW.glb/Materials/kalp_pasta
-      - heart_cakeNEW.glb/Materials/mum
-      - heart_cakeNEW.glb/Materials/mum_ates
-      - heart_cakeNEW.glb/Materials/ust_krema
-      - heart_cakeNEW.glb/Meshes
-      - heart_cakeNEW.glb/Meshes/Plane.002
-      - heart_cakeNEW.glb/Meshes/Plane.013
-      - heart_cakeNEW.glb/Meshes/Plane.014
-      - heart_cakeNEW.glb/Meshes/Plane1.014
-      - heart_cakeNEW.glb/Meshes/Plane2.014
-      - heart_cakeNEW.glb/heart_cakeNEW
       - image_unlit.ss_graph
       - kalp-pasta.kremalar.prefab
       - kiraz.001.mat
@@ -1454,62 +1300,58 @@ CollapsedEntities:
       - macarons/macarons.prefab
       - matte_shadow.ss_graph
       - new stuff
-      - new stuff/basketYepyeni.fbx
-      - new stuff/basketYepyeni.fbx/.hidden
-      - new stuff/basketYepyeni.fbx/.hidden/Wicker Basket
-      - new stuff/basketYepyeni.fbx/.hidden/white
-      - new stuff/basketYepyeni.fbx/Animations
-      - new stuff/basketYepyeni.fbx/Animations/kapak_KapakAnim
-      - new stuff/basketYepyeni.fbx/Materials
-      - new stuff/basketYepyeni.fbx/Materials/Wicker Basket
-      - new stuff/basketYepyeni.fbx/Meshes
-      - new stuff/basketYepyeni.fbx/Meshes/basket
-      - new stuff/basketYepyeni.fbx/Meshes/kapak
-      - new stuff/basketYepyeni.fbx/Textures
-      - new stuff/basketYepyeni.fbx/Textures/diffuse2
-      - new stuff/basketYepyeni.fbx/basketYepyeni
-      - new stuff/cherryCupcake.fbx
-      - new stuff/cherryCupcake.fbx/.hidden
-      - new stuff/cherryCupcake.fbx/.hidden/cream
-      - new stuff/cherryCupcake.fbx/.hidden/white
-      - new stuff/cherryCupcake.fbx/Animations
-      - new stuff/cherryCupcake.fbx/Animations/CubeCherry_CherryCubeAction
-      - new stuff/cherryCupcake.fbx/Animations/cherry_cupcake_CherryCubeAction
-      - new stuff/cherryCupcake.fbx/Materials
-      - new stuff/cherryCupcake.fbx/Materials/cream
-      - new stuff/cherryCupcake.fbx/Materials/cupcake_CAKE2
-      - new stuff/cherryCupcake.fbx/Materials/cupcake_cup.001
-      - new stuff/cherryCupcake.fbx/Materials/kiraz.001
-      - new stuff/cherryCupcake.fbx/Meshes
-      - new stuff/cherryCupcake.fbx/Meshes/CubeCherry
-      - new stuff/cherryCupcake.fbx/Meshes/cherry_cupcake
-      - new stuff/cherryCupcake.fbx/Meshes/cherry_cupcake1
-      - new stuff/cherryCupcake.fbx/Meshes/cherry_cupcake2
-      - new stuff/cherryCupcake.fbx/Meshes/cherry_cupcake3
-      - new stuff/cherryCupcake.fbx/cherryCupcake
-      - new stuff/cilekCupcake.fbx
-      - new stuff/cilekCupcake.fbx/.hidden
-      - new stuff/cilekCupcake.fbx/.hidden/Material
-      - new stuff/cilekCupcake.fbx/.hidden/white
-      - new stuff/cilekCupcake.fbx/Animations
-      - new stuff/cilekCupcake.fbx/Animations/CubeCilek_CilekCubeAction
-      - new stuff/cilekCupcake.fbx/Animations/cilek_cupcake_CilekCubeAction
-      - new stuff/cilekCupcake.fbx/Materials
-      - new stuff/cilekCupcake.fbx/Materials/Material
-      - new stuff/cilekCupcake.fbx/Materials/cilek_kirmizi
-      - new stuff/cilekCupcake.fbx/Materials/cilek_yesil
-      - new stuff/cilekCupcake.fbx/Materials/cream.001
-      - new stuff/cilekCupcake.fbx/Materials/cupcake_cake
-      - new stuff/cilekCupcake.fbx/Materials/cupcake_cup
-      - new stuff/cilekCupcake.fbx/Meshes
-      - new stuff/cilekCupcake.fbx/Meshes/CubeCilek
-      - new stuff/cilekCupcake.fbx/Meshes/cilek_cupcake
-      - new stuff/cilekCupcake.fbx/Meshes/cilek_cupcake1
-      - new stuff/cilekCupcake.fbx/Meshes/cilek_cupcake2
-      - new stuff/cilekCupcake.fbx/Meshes/cilek_cupcake3
-      - new stuff/cilekCupcake.fbx/Meshes/cilek_cupcake4
-      - new stuff/cilekCupcake.fbx/Meshes/cilek_cupcake5
-      - new stuff/cilekCupcake.fbx/cilekCupcake
+      - new stuff/basketYepyeni
+      - new stuff/basketYepyeni/.hidden
+      - new stuff/basketYepyeni/.hidden/Wicker Basket.ss_graph
+      - new stuff/basketYepyeni/.hidden/white.jpg
+      - new stuff/basketYepyeni/Animations
+      - new stuff/basketYepyeni/Animations/kapak_KapakAnim.animationAsset
+      - new stuff/basketYepyeni/Materials
+      - new stuff/basketYepyeni/Materials/Wicker Basket.mat
+      - new stuff/basketYepyeni/Meshes/basket.mesh
+      - new stuff/basketYepyeni/Meshes/kapak.mesh
+      - new stuff/basketYepyeni/Textures
+      - new stuff/basketYepyeni/Textures/diffuse2.png
+      - new stuff/basketYepyeni/basketYepyeni.prefab
+      - new stuff/cherryCupcake
+      - new stuff/cherryCupcake/.hidden
+      - new stuff/cherryCupcake/.hidden/cream.ss_graph
+      - new stuff/cherryCupcake/.hidden/white.jpg
+      - new stuff/cherryCupcake/Animations
+      - new stuff/cherryCupcake/Animations/CubeCherry_CherryCubeAction.animationAsset
+      - new stuff/cherryCupcake/Animations/cherry_cupcake_CherryCubeAction.animationAsset
+      - new stuff/cherryCupcake/Materials
+      - new stuff/cherryCupcake/Materials/cream.mat
+      - new stuff/cherryCupcake/Materials/cupcake_CAKE2.mat
+      - new stuff/cherryCupcake/Materials/cupcake_cup.001.mat
+      - new stuff/cherryCupcake/Materials/kiraz.001.mat
+      - new stuff/cherryCupcake/Meshes/CubeCherry.mesh
+      - new stuff/cherryCupcake/Meshes/cherry_cupcake.mesh
+      - new stuff/cherryCupcake/Meshes/cherry_cupcake1.mesh
+      - new stuff/cherryCupcake/Meshes/cherry_cupcake2.mesh
+      - new stuff/cherryCupcake/Meshes/cherry_cupcake3.mesh
+      - new stuff/cherryCupcake/cherryCupcake.prefab
+      - new stuff/cilekCupcake/.hidden
+      - new stuff/cilekCupcake/.hidden/Material.ss_graph
+      - new stuff/cilekCupcake/.hidden/white.jpg
+      - new stuff/cilekCupcake/Animations
+      - new stuff/cilekCupcake/Animations/CubeCilek_CilekCubeAction.animationAsset
+      - new stuff/cilekCupcake/Animations/cilek_cupcake_CilekCubeAction.animationAsset
+      - new stuff/cilekCupcake/Materials
+      - new stuff/cilekCupcake/Materials/Material.mat
+      - new stuff/cilekCupcake/Materials/cilek_kirmizi.mat
+      - new stuff/cilekCupcake/Materials/cilek_yesil.mat
+      - new stuff/cilekCupcake/Materials/cream.001.mat
+      - new stuff/cilekCupcake/Materials/cupcake_cake.mat
+      - new stuff/cilekCupcake/Materials/cupcake_cup.mat
+      - new stuff/cilekCupcake/Meshes/CubeCilek.mesh
+      - new stuff/cilekCupcake/Meshes/cilek_cupcake.mesh
+      - new stuff/cilekCupcake/Meshes/cilek_cupcake1.mesh
+      - new stuff/cilekCupcake/Meshes/cilek_cupcake2.mesh
+      - new stuff/cilekCupcake/Meshes/cilek_cupcake3.mesh
+      - new stuff/cilekCupcake/Meshes/cilek_cupcake4.mesh
+      - new stuff/cilekCupcake/Meshes/cilek_cupcake5.mesh
+      - new stuff/cilekCupcake/cilekCupcake.prefab
       - new stuff/lemonade
       - new stuff/lemonade/.hidden
       - new stuff/lemonade/.hidden/bubblesMat.ss_graph
@@ -1531,14 +1373,12 @@ CollapsedEntities:
       - new stuff/lemonade/Materials/lemonMat.mat
       - new stuff/lemonade/Materials/lemonadeMat.mat
       - new stuff/lemonade/Materials/strawMat.mat
-      - new stuff/lemonade/Meshes
       - new stuff/lemonade/Meshes/bubbles.mesh
       - new stuff/lemonade/Meshes/glass.mesh
       - new stuff/lemonade/Meshes/lemon.mesh
       - new stuff/lemonade/Meshes/lemonade.mesh
       - new stuff/lemonade/Meshes/straw.mesh
       - new stuff/lemonade/lemonade.prefab
-      - new stuff/macarons
       - new stuff/macarons/.hidden
       - new stuff/macarons/.hidden/ceramic.004.ss_graph
       - new stuff/macarons/.hidden/white.jpg
@@ -1569,7 +1409,6 @@ CollapsedEntities:
       - new stuff/macarons/Meshes/macaron_vanilla.002.mesh
       - new stuff/macarons/Meshes/macaron_vanilla1.002.mesh
       - new stuff/macarons/macarons.prefab
-      - new stuff/teaPot
       - new stuff/teaPot/.hidden
       - new stuff/teaPot/.hidden/ceramic.001.ss_graph
       - new stuff/teaPot/.hidden/white.jpg
@@ -1577,34 +1416,29 @@ CollapsedEntities:
       - new stuff/teaPot/Animations/teapot_teapotAction.animationAsset
       - new stuff/teaPot/Materials
       - new stuff/teaPot/Materials/ceramic.001.mat
-      - new stuff/teaPot/Meshes
       - new stuff/teaPot/Meshes/teapot.mesh
       - new stuff/teaPot/teaPot.prefab
       - occluder.ss_graph
       - pbr.ss_graph
       - picnicMain
-      - picnicMain/Cartoon Bee.fbx
-      - picnicMain/Cartoon Bee.fbx/.hidden
-      - picnicMain/Cartoon Bee.fbx/.hidden/bee_black
-      - picnicMain/Cartoon Bee.fbx/.hidden/white
-      - picnicMain/Cartoon Bee.fbx/Animations
-      - picnicMain/Cartoon Bee.fbx/Animations/Armature_bee_Armature_bee_Armature_bee_idle
-      - picnicMain/Cartoon Bee.fbx/Cartoon Bee
-      - picnicMain/Cartoon Bee.fbx/Materials
-      - picnicMain/Cartoon Bee.fbx/Materials/bee_black
-      - picnicMain/Cartoon Bee.fbx/Materials/bee_wings
-      - picnicMain/Cartoon Bee.fbx/Materials/bee_yellow
-      - picnicMain/Cartoon Bee.fbx/Meshes
-      - picnicMain/Cartoon Bee.fbx/Meshes/bee
-      - picnicMain/Cartoon Bee.fbx/Meshes/bee1
-      - picnicMain/Cartoon Bee.fbx/Meshes/bee2
+      - picnicMain/Cartoon Bee/.hidden
+      - picnicMain/Cartoon Bee/.hidden/bee_black.ss_graph
+      - picnicMain/Cartoon Bee/.hidden/white.jpg
+      - picnicMain/Cartoon Bee/Animations
+      - picnicMain/Cartoon Bee/Animations/Armature_bee_Armature_bee_Armature_bee_idle.animationAsset
+      - picnicMain/Cartoon Bee/Cartoon Bee.prefab
+      - picnicMain/Cartoon Bee/Materials/bee_black.mat
+      - picnicMain/Cartoon Bee/Materials/bee_wings.mat
+      - picnicMain/Cartoon Bee/Materials/bee_yellow.mat
+      - picnicMain/Cartoon Bee/Meshes/bee.mesh
+      - picnicMain/Cartoon Bee/Meshes/bee1.mesh
+      - picnicMain/Cartoon Bee/Meshes/bee2.mesh
       - picnicMain/ortuNew
       - picnicMain/ortuNew/.hidden
       - picnicMain/ortuNew/.hidden/ortu_mat.001.ss_graph
       - picnicMain/ortuNew/.hidden/white.jpg
       - picnicMain/ortuNew/Materials
       - picnicMain/ortuNew/Materials/ortu_mat.001.mat
-      - picnicMain/ortuNew/Meshes
       - picnicMain/ortuNew/Meshes/ortu.mesh
       - picnicMain/ortuNew/red-gingham.001.jpg
       - picnicMain/picnicMain.prefab
@@ -1615,7 +1449,6 @@ CollapsedEntities:
       - picnicMain/sepetNEW/Materials/Normal.png
       - picnicMain/sepetNEW/Materials/sepetNEW.mat
       - picnicMain/sepetNEW/Materials/sepetNEW.ss_graph
-      - picnicMain/sepetNEW/Meshes
       - picnicMain/sepetNEW/Meshes/Cube.mesh
       - picnicMain/sepetNEW/Meshes/kapak.mesh
       - picnicMain/sepetNEW/Textures
@@ -1633,16 +1466,6 @@ CollapsedEntities:
       - pouringTea.mp3
       - simple_pbr.ss_graph
       - speechbubble.png
-      - teapot.prefab
-      - teapotNEW.glb
-      - teapotNEW.glb/.hidden
-      - teapotNEW.glb/.hidden/ceramic
-      - teapotNEW.glb/Materials
-      - teapotNEW.glb/Materials/ceramic
-      - teapotNEW.glb/Meshes
-      - teapotNEW.glb/Meshes/Mesh.001
-      - teapotNEW.glb/teapotNEW
-      - waiterStanding
       - waiterStanding/.hidden
       - waiterStanding/.hidden/Material.001.ss_graph
       - waiterStanding/.hidden/white.jpg
@@ -1650,7 +1473,6 @@ CollapsedEntities:
       - waiterStanding/Animations/metarig_metarig_mixamo.com_Layer0.animationAsset
       - waiterStanding/Materials
       - waiterStanding/Materials/Material.001.mat
-      - waiterStanding/Meshes
       - waiterStanding/Meshes/input.mesh
       - waiterStanding/Textures
       - waiterStanding/Textures/Dapper_Waiter_0624135955_texture3.png

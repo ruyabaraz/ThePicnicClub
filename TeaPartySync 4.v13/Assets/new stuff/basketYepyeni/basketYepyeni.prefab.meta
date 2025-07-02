@@ -1,0 +1,138 @@
+- !<AssetImportMetadata/a08aecf1-1d7d-4d85-b2fe-d3783016d40d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> c9382a00-8d6e-439f-946a-cbd834b06a78
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> c9382a00-8d6e-439f-946a-cbd834b06a78
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> ff2ca913-2c3a-450f-a97a-72823b6b3e91
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AnimationPlayer/64978e2d-ad83-4779-b27c-13f825f48879>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> fb82f355-a275-40d7-a853-7f8ebde7e155
+      Name: kapak|KapakAnim
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 98.750008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/8498a95d-ddb5-4b5e-8816-a8917a94b13f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c84c3e38-4ff7-4a79-8d1f-1972f58da162
+  Mesh: !<reference> 5a8d4de9-1379-458c-bbc8-3963e8e91f96
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/86b97ff0-7d9a-432f-8ba4-9a03d03102c0>
+  PrefabRemaps:
+    []
+  Name: basket
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 56.259792, y: 3.587916, z: -62.210350}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 872b83cc-df9a-40e9-9734-4b441e8cc0ee
+  Components:
+    - !<own> d09649b7-749f-4bad-a1d6-4a00c9fcba20
+- !<SceneObject/872b83cc-df9a-40e9-9734-4b441e8cc0ee>
+  PrefabRemaps:
+    []
+  Name: kapak
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.014040, y: -0.007574, z: 0.167631}
+    rotation: {x: -0.000000, y: -0.000000, z: -28.346939}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8498a95d-ddb5-4b5e-8816-a8917a94b13f
+- !<SceneObject/8b43f62a-c5b8-46e0-9eed-1138d14ecd67>
+  PrefabRemaps:
+    []
+  Name: basketYepyeni
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 86b97ff0-7d9a-432f-8ba4-9a03d03102c0
+  Components:
+    - !<own> 64978e2d-ad83-4779-b27c-13f825f48879
+- !<ObjectPrefab/c08e284e-ac01-472e-a742-6f72dab1b2bf>
+  PackagePath: ""
+  objects:
+    - !<own> 8b43f62a-c5b8-46e0-9eed-1138d14ecd67
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/d09649b7-749f-4bad-a1d6-4a00c9fcba20>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c84c3e38-4ff7-4a79-8d1f-1972f58da162
+  Mesh: !<reference> de1ad49c-7d81-4ce1-8689-9fb79a744538
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/ff2ca913-2c3a-450f-a97a-72823b6b3e91>
+  SourceRemaps:
+    - 1256d961-5115-41e2-9d35-78dd5e85dcff: 8b43f62a-c5b8-46e0-9eed-1138d14ecd67
+    - 735e00bb-293a-4df9-8871-73d4fa76bb47: 8498a95d-ddb5-4b5e-8816-a8917a94b13f
+    - 9e5ffd7b-7a6d-481e-a07c-d6356b5eeafa: 64978e2d-ad83-4779-b27c-13f825f48879
+    - a532dbd0-932d-4e08-906c-24c62c48b176: d09649b7-749f-4bad-a1d6-4a00c9fcba20
+    - c9382a00-8d6e-439f-946a-cbd834b06a78: c08e284e-ac01-472e-a742-6f72dab1b2bf
+    - cce3d2fb-e8f1-435d-b6c3-2bb9bbe5696e: 872b83cc-df9a-40e9-9734-4b441e8cc0ee
+    - d831c0db-7ea8-4c71-9d15-104b031284bf: 86b97ff0-7d9a-432f-8ba4-9a03d03102c0
+  SourceState: !<own> c08e284e-ac01-472e-a742-6f72dab1b2bf

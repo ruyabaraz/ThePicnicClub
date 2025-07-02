@@ -1,0 +1,188 @@
+- !<ObjectPrefab/fe78582e-f09d-44e5-97e7-e6419d9cc9cd>
+  PackagePath: ""
+  objects:
+    - !<own> d243376d-8ac5-4660-b342-977a66a7807e
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/2165f8e8-c9b4-4a77-93b8-347ebb1c77e1>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> ed56c082-a27d-4e22-a462-36f16a094b4b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/44ffa9f8-db6e-49b7-99c5-a145aed045a4>
+  PrefabRemaps:
+    []
+  Name: cherry_cupcake
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -0.000000, z: -0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 14.557280, y: 14.557280, z: 14.557280}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b482de6c-853a-4467-9c9a-308cf1a164ca
+    - !<own> 86c731a4-96cb-43f1-b159-b22ea63b9fae
+    - !<own> cb84fde7-41f5-479c-a487-d944894eee69
+    - !<own> f4c24b4f-ea9c-4c61-b3b6-50971dd8530f
+- !<RenderMeshVisual/86c731a4-96cb-43f1-b159-b22ea63b9fae>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a08e21bf-9ebb-4a34-9124-b9942ac99739
+  Mesh: !<reference> 2690330a-3164-4e3a-b54a-5e45f00aca15
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8a5a09c2-0820-446d-b7a1-52386a19e9ec>
+  PrefabRemaps:
+    []
+  Name: CubeCherry
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 59.640526, y: 10.075441, z: -62.940659}
+    rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 4.534741, y: 4.534741, z: 4.534741}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 44ffa9f8-db6e-49b7-99c5-a145aed045a4
+  Components:
+    - !<own> 2165f8e8-c9b4-4a77-93b8-347ebb1c77e1
+- !<AnimationPlayer/b1e5b253-dbcb-4128-8fc7-88f730512883>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> aecf20dd-a473-4382-accd-a6b4c5676a35
+      Name: CubeCherry|CherryCubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 76.250008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4373a77b-a66d-4ced-9499-0bcb1d9fad61
+      Name: cherry_cupcake|CherryCubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 76.250008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/b482de6c-853a-4467-9c9a-308cf1a164ca>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d2abce50-556e-4c40-9b08-808dfd617010
+  Mesh: !<reference> 2f7b803c-95a2-4f3e-929a-3f7fac91f19f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/cb84fde7-41f5-479c-a487-d944894eee69>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b849699f-d165-491d-9c1f-244169f66b37
+  Mesh: !<reference> 29fbcb28-935d-43fb-89a8-7d5ea0c8ae6b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d243376d-8ac5-4660-b342-977a66a7807e>
+  PrefabRemaps:
+    []
+  Name: cherryCupcake
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8a5a09c2-0820-446d-b7a1-52386a19e9ec
+  Components:
+    - !<own> b1e5b253-dbcb-4128-8fc7-88f730512883
+- !<RenderMeshVisual/f4c24b4f-ea9c-4c61-b3b6-50971dd8530f>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 321cfd3f-78b3-4653-9f1a-b0656ef5d7ca
+  Mesh: !<reference> 7fffa879-eba8-4fec-ab53-0e5b9c011f1d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

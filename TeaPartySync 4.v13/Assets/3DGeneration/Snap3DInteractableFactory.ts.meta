@@ -28,6 +28,7 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    audioItemReady: false
     prompt: false
     refineMesh: false
     runOnTap: false
@@ -45,6 +46,7 @@
       runOnTap: false
       snap3DInteractablePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       waiterAnimation: !<reference.AnimationPlayer> 00000000-0000-0000-0000-000000000000
+      audioItemReady: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -58,3 +60,4 @@
     - // @input bool runOnTap
     - // @input Asset.ObjectPrefab snap3DInteractablePrefab
     - // @input Component.AnimationPlayer waiterAnimation
+    - // @input Component.AudioComponent audioItemReady

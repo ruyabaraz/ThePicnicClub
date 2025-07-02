@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    de1ad49c-7d81-4ce1-8689-9fb79a744538: 6ca4b1cc-9c34-4876-8903-5f770095f62c/8921df68b5568358a9fdc215d9430a11/Data/basket.mesh
+  Assets:
+    - !<FileMesh/de1ad49c-7d81-4ce1-8689-9fb79a744538>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 6224
+        Vertices: 4636
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.415535, y: 0.354344, z: 0.342380}
+  SourceHash: 8921df68b5568358a9fdc215d9430a11
+  FileHash: 7abc8a58f94eee8de32113b36935eb48
+  NativePackageItems:
+    []

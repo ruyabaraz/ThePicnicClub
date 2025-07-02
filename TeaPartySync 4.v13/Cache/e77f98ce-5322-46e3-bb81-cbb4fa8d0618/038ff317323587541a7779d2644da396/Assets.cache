@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    f0f87f40-0a38-4f71-b3da-9a769cb22487: e77f98ce-5322-46e3-bb81-cbb4fa8d0618/038ff317323587541a7779d2644da396/Data/nice pick - daniel.mp3
+  Assets:
+    - !<FileAudioTrack/f0f87f40-0a38-4f71-b3da-9a769cb22487>
+      PackagePath: ""
+  SourceHash: 038ff317323587541a7779d2644da396
+  FileHash: e9d9399e12cf8cb55727081aba684359
+  NativePackageItems:
+    []
